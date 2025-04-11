@@ -1,0 +1,66 @@
+2025-04-11 22:01:20,023 - main - INFO - 启动应用
+2025-04-11 22:01:20,026 - database - INFO - 数据库初始化成功
+2025-04-11 22:01:20,108 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-11 22:01:25,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getMe "HTTP/1.1 200 OK"
+2025-04-11 22:01:26,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-11 22:01:37,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:01:44,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:01:45,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-11 22:01:54,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:02:01,762 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:02:04,534 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-11 22:02:09,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:02:09,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-11 22:02:09,971 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-11 22:02:49,844 - scraper - INFO - 等待页面内容加载...
+2025-04-11 22:03:05,198 - scraper - WARNING - 等待特定元素超时，将继续使用当前页面: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102946dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010293f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001024868d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001024cd6a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010250e7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x00000001024c1a80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x000000010290bc74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010290ef40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001028eb9fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010290f7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001028dcaf0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010292f9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010292fb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010293ecd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x000000018b8bf2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018b8ba0fc thread_start + 8
+
+2025-04-11 22:03:05,300 - scraper - INFO - 使用x-gpt解析器
+2025-04-11 22:03:05,306 - scraper - INFO - 已将页面内容保存到 page_content.html 文件中
+2025-04-11 22:03:05,307 - scraper - INFO - 找到可能的推文容器: 29个
+2025-04-11 22:03:05,308 - ai_processor - INFO - 处理来自 示例网站 的数据
+2025-04-11 22:03:28,415 - database - INFO - 保存数据成功: 示例网站
+2025-04-11 22:03:28,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:03:30,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-11 22:03:39,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:03:50,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:00,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:11,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:22,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:33,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:43,547 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:04:54,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:04,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:15,592 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:26,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:36,657 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:47,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:05:57,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:06:08,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:06:18,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:06:30,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:06:41,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:06:51,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:02,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:12,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:23,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:34,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:44,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-11 22:07:49,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"

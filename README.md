@@ -6,11 +6,10 @@ Moss_bot是一个专为加密货币交易爱好者开发的机器人，旨在实
 
 ## 主要功能
 
-- **实时监控**：自动爬取顶级交易员的Twitter动态
-- **情绪分析**：直接提取网页中的情绪标签(positive/neutral/negative)、分析原因和解释
+- **实时监控**：自动爬取顶级交易员最近的Twitter动态
+- **情绪分析**：分析每条推文对应的情绪标签(positive/neutral/negative)、分析原因和详细解释
 - **资产关联**：识别推文中提及的加密货币资产
-- **Telegram推送**：通过Telegram机器人实时接收市场洞察
-- **历史查询**：支持查询历史交易员观点和市场情绪
+- **Telegram推送**：通过Telegram机器人实时接收市场洞察，综合最近24小时的推文，判断市场走向
 
 ## 技术架构
 
@@ -81,7 +80,7 @@ Moss_bot是一个专为加密货币交易爱好者开发的机器人，旨在实
 
 ## 贡献者
 
-- [Lambert Lin](https://github.com/lambertlalpha)
+- [Lambert Lin](https://github.com/lambertalpha)
 - [Shiyu Chen](https://github.com/csy143)
 
 ## 许可证

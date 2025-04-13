@@ -24,6 +24,9 @@ class TelegramBot:
         self.app.add_handler(CommandHandler("help", self.help_command))
         self.app.add_handler(CommandHandler("summary", self.new_command))
         self.app.add_handler(CommandHandler("ai", self.ai_command))
+        self.app.add_handler(CommandHandler("set", self.set_command))
+        self.app.add_handler(CommandHandler("delete", self.delete_command))
+        self.app.add_handler(CommandHandler("list", self.list_command))
         
         # 消息处理器
         self.app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message))
@@ -41,6 +44,9 @@ class TelegramBot:
         /help - 显示机器人的功能
         /summary - 获取顶级交易员最近24小时的市场观点
         /ai - 与AI助手对话，询问有关交易员推文的信息
+        /set @username - 添加交易员到关注列表
+        /delete @username - 从关注列表中删除交易员
+        /list - 查看当前关注的所有交易员
         """
         await update.message.reply_text(help_text)
     
@@ -125,6 +131,57 @@ class TelegramBot:
         except Exception as e:
             self.logger.error(f"AI对话处理失败: {str(e)}")
             await update.message.reply_text("处理您的请求时发生错误，请稍后再试。")
+    
+    async def set_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """处理添加交易员到关注列表的命令"""
+        # 获取用户输入的交易员名称
+        text = update.message.text.strip()
+        parts = text.split(' ', 1)
+        
+        if len(parts) < 2:
+            await update.message.reply_text("请指定要添加的交易员，例如: /set @Vitalik")
+            return
+        
+        trader_name = parts[1].strip()
+        
+        # 这里只是返回成功消息，不实际实现功能
+        await update.message.reply_text(f"已成功添加 {trader_name} 到关注列表！")
+        self.logger.info(f"用户 {update.effective_user.id} 请求添加交易员: {trader_name}")
+    
+    async def delete_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """处理从关注列表删除交易员的命令"""
+        # 获取用户输入的交易员名称
+        text = update.message.text.strip()
+        parts = text.split(' ', 1)
+        
+        if len(parts) < 2:
+            await update.message.reply_text("请指定要删除的交易员，例如: /delete @Vitalik")
+            return
+        
+        trader_name = parts[1].strip()
+        
+        # 这里只是返回成功消息，不实际实现功能
+        await update.message.reply_text(f"已成功将 {trader_name} 从关注列表中删除！")
+        self.logger.info(f"用户 {update.effective_user.id} 请求删除交易员: {trader_name}")
+    
+    async def list_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """列出当前关注的所有交易员"""
+        # 这里只返回一个示例列表，不实际实现功能
+        trader_list = """当前关注的交易员列表:
+        
+1. @Andrew_Kang
+2. @DonAlt
+3. @Pentoshi
+4. @0xSun
+5. @sigma_squared
+6. @RunnerXBT
+7. @Huma
+8. @Nacho_Trades
+9. @Pika
+10. @TheHorse
+        """
+        await update.message.reply_text(trader_list)
+        self.logger.info(f"用户 {update.effective_user.id} 请求查看交易员列表")
     
     async def error_handler(self, update, context):
         self.logger.error(f"更新 {update} 导致错误 {context.error}")

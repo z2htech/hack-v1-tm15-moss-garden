@@ -1,0 +1,19 @@
+2025-04-13 23:31:17,071 - main - INFO - 启动应用
+2025-04-13 23:31:17,073 - database - INFO - 数据库初始化成功
+2025-04-13 23:31:17,161 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 23:31:18,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getMe "HTTP/1.1 200 OK"
+2025-04-13 23:31:18,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 23:31:22,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:31:22,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:31:32,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:31:43,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:31:53,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:03,778 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:06,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:07,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:32:17,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:21,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:22,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:32:22,767 - telegram_bot - INFO - 用户 7787033196 请求添加交易员: @Vitalik
+2025-04-13 23:32:31,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:32:43,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"

@@ -20,7 +20,7 @@ class TelegramBot:
         # 命令处理器
         self.app.add_handler(CommandHandler("start", self.start_command))
         self.app.add_handler(CommandHandler("help", self.help_command))
-        self.app.add_handler(CommandHandler("fetch", self.fetch_command))
+        self.app.add_handler(CommandHandler("summary", self.new_command))
         
         # 消息处理器
         self.app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message))
@@ -35,13 +35,13 @@ class TelegramBot:
         help_text = """
         可用命令:
         /start - 开始使用机器人
-        /help - 显示帮助信息
-        /fetch - 立即获取最新信息
+        /help - 显示机器人的功能
+        /summary - 获取顶级交易员最近24小时的市场观点
         """
         await update.message.reply_text(help_text)
     
-    async def fetch_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        await update.message.reply_text("正在获取最新信息，请稍候...")
+    async def new_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        await update.message.reply_text("正在获取交易员最近24小时的推文并总结其市场观点，请稍候...")
         
         # 爬取数据
         results = []
@@ -58,7 +58,7 @@ class TelegramBot:
         if results:
             for result in results:
                 await update.message.reply_text(
-                    f"来自 {result['original_data']['source']} 的信息:\n\n"
+                    f"顶级交易员市场观点汇总:\n\n"
                     f"{result['summary']}\n\n"
                     f"数据来源: {result['original_data']['url']}"
                 )

@@ -1,0 +1,192 @@
+2025-04-13 15:41:57,693 - main - INFO - 启动应用
+2025-04-13 15:41:57,695 - database - INFO - 数据库初始化成功
+2025-04-13 15:41:57,782 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 15:41:59,180 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getMe "HTTP/1.1 200 OK"
+2025-04-13 15:41:59,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 15:42:01,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 15:42:02,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 15:42:05,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 15:42:06,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 15:42:09,898 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 15:42:10,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 15:42:10,509 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-13 15:42:11,666 - scraper - INFO - 等待页面内容加载...
+2025-04-13 15:42:16,674 - scraper - INFO - 找到 27 个交易员
+2025-04-13 15:42:16,694 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-13 15:42:16,707 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 15:42:16,720 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-13 15:42:16,732 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-13 15:42:16,743 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 15:42:16,755 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-13 15:42:16,766 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-13 15:42:16,777 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-13 15:42:16,789 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-13 15:42:16,807 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-13 15:42:16,819 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 15:42:16,831 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 15:42:16,843 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-13 15:42:16,855 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-13 15:42:16,867 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-13 15:42:16,877 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 15:42:16,889 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-13 15:42:16,900 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 15:42:16,910 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 15:42:16,922 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-13 15:42:16,934 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-13 15:42:16,944 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 15:42:16,957 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-13 15:42:16,968 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 15:42:16,980 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-13 15:42:16,990 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-13 15:42:17,002 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-13 15:42:17,002 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-13 15:42:21,060 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:42:21,067 - scraper - INFO - 成功获取到 Andrew Kang 的 5 条最近24小时内的推文
+2025-04-13 15:42:23,095 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 15:42:27,183 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:42:27,186 - scraper - INFO - 成功获取到 RunnerXBT 的 5 条最近24小时内的推文
+2025-04-13 15:42:29,213 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-13 15:42:33,279 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:42:33,282 - scraper - INFO - 成功获取到 art 的 5 条最近24小时内的推文
+2025-04-13 15:42:35,314 - scraper - INFO - 点击交易员: TheHorse (@trading__horse)
+2025-04-13 15:42:39,393 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 15:42:39,395 - scraper - INFO - 成功获取到 TheHorse 的 5 条最近24小时内的推文
+2025-04-13 15:42:41,421 - scraper - INFO - 点击交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 15:42:45,539 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:42:45,544 - scraper - INFO - 成功获取到 HORSE 🏴‍☠️ 的 5 条最近24小时内的推文
+2025-04-13 15:42:47,573 - scraper - INFO - 点击交易员: Nacho Trades (@NachoTrades)
+2025-04-13 15:42:51,663 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 15:42:51,666 - scraper - INFO - 成功获取到 Nacho Trades 的 5 条最近24小时内的推文
+2025-04-13 15:42:53,696 - scraper - INFO - 点击交易员: Awawat (@Awawat_Trades)
+2025-04-13 15:42:57,770 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:42:57,773 - scraper - INFO - 成功获取到 Awawat 的 5 条最近24小时内的推文
+2025-04-13 15:42:59,798 - scraper - INFO - 点击交易员: PC ² (@PC_Larp)
+2025-04-13 15:43:03,873 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:43:03,875 - scraper - INFO - 成功获取到 PC ² 的 5 条最近24小时内的推文
+2025-04-13 15:43:05,901 - scraper - INFO - 点击交易员: Cred (@CryptoCred)
+2025-04-13 15:43:09,993 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:43:09,996 - scraper - INFO - 成功获取到 Cred 的 5 条最近24小时内的推文
+2025-04-13 15:43:12,030 - scraper - INFO - 点击交易员: Reetika (@ReetikaTrades)
+2025-04-13 15:43:16,129 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:43:16,131 - scraper - INFO - 成功获取到 Reetika 的 5 条最近24小时内的推文
+2025-04-13 15:43:18,159 - scraper - INFO - 点击交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 15:43:22,245 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:43:22,247 - scraper - INFO - 成功获取到 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted 的 5 条最近24小时内的推文
+2025-04-13 15:43:24,272 - scraper - INFO - 点击交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 15:43:28,314 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:43:28,316 - scraper - INFO - 成功获取到 DonAlt 的 5 条最近24小时内的推文
+2025-04-13 15:43:30,340 - scraper - INFO - 点击交易员: DeFi^2 (@DefiSquared)
+2025-04-13 15:43:34,412 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 15:43:34,414 - scraper - INFO - 成功获取到 DeFi^2 的 5 条最近24小时内的推文
+2025-04-13 15:43:36,491 - scraper - INFO - 点击交易员: Chiefingza (@chiefingza)
+2025-04-13 15:43:40,557 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:43:40,558 - scraper - INFO - 成功获取到 Chiefingza 的 5 条最近24小时内的推文
+2025-04-13 15:43:42,588 - scraper - INFO - 点击交易员: Pika (@pikachu_crypto)
+2025-04-13 15:43:46,654 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:43:46,656 - scraper - INFO - 成功获取到 Pika 的 5 条最近24小时内的推文
+2025-04-13 15:43:48,683 - scraper - INFO - 点击交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 15:43:52,757 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 15:43:52,760 - scraper - INFO - 成功获取到 smartestmoney.hl 的 5 条最近24小时内的推文
+2025-04-13 15:43:54,793 - scraper - INFO - 点击交易员: Nachi (@alphawifhat)
+2025-04-13 15:43:58,880 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:43:58,883 - scraper - INFO - 成功获取到 Nachi 的 5 条最近24小时内的推文
+2025-04-13 15:44:00,911 - scraper - INFO - 点击交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 15:44:05,006 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:44:05,010 - scraper - INFO - 成功获取到 Joshua | MOZAIK 🇰🇷 的 5 条最近24小时内的推文
+2025-04-13 15:44:07,041 - scraper - INFO - 点击交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 15:44:11,140 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 15:44:11,143 - scraper - INFO - 成功获取到 川沐｜Trumoo🐮 的 5 条最近24小时内的推文
+2025-04-13 15:44:13,176 - scraper - INFO - 点击交易员: Definalist (@definalist)
+2025-04-13 15:44:17,267 - scraper - INFO - 找到 89 个可能包含JSON数据的元素
+2025-04-13 15:44:17,270 - scraper - INFO - 成功获取到 Definalist 的 5 条最近24小时内的推文
+2025-04-13 15:44:19,303 - scraper - INFO - 点击交易员: salience (@saliencexbt)
+2025-04-13 15:44:23,381 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:44:23,384 - scraper - INFO - 成功获取到 salience 的 5 条最近24小时内的推文
+2025-04-13 15:44:25,414 - scraper - INFO - 点击交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 15:44:29,500 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 15:44:29,502 - scraper - INFO - 成功获取到 憨巴龙王 的 5 条最近24小时内的推文
+2025-04-13 15:44:31,529 - scraper - INFO - 点击交易员: 带带带比特 (@daidaibtc)
+2025-04-13 15:44:35,623 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 15:44:35,626 - scraper - INFO - 成功获取到 带带带比特 的 5 条最近24小时内的推文
+2025-04-13 15:44:37,658 - scraper - INFO - 点击交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 15:44:41,753 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:44:41,756 - scraper - INFO - 成功获取到 sigma^2 的 5 条最近24小时内的推文
+2025-04-13 15:44:43,790 - scraper - INFO - 点击交易员: Game (@game_for_one)
+2025-04-13 15:44:47,884 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:44:47,887 - scraper - INFO - 成功获取到 Game 的 5 条最近24小时内的推文
+2025-04-13 15:44:49,917 - scraper - INFO - 点击交易员: 0xSun (@0xSunNFT)
+2025-04-13 15:44:54,026 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 15:44:54,029 - scraper - INFO - 成功获取到 0xSun 的 5 条最近24小时内的推文
+2025-04-13 15:44:56,056 - scraper - INFO - 点击交易员: Huma (@HumaCapital)
+2025-04-13 15:45:00,148 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 15:45:00,151 - scraper - INFO - 成功获取到 Huma 的 5 条最近24小时内的推文
+2025-04-13 15:45:02,288 - scraper - INFO - 已爬取 135 条推文并保存到 extracted_tweets.json
+2025-04-13 15:45:02,288 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-13 15:46:28,571 - database - INFO - 保存数据成功: X-GPT
+2025-04-13 15:46:28,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 15:46:33,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 15:49:54,197 - telegram.ext.Updater - ERROR - Error while calling `get_updates` one more time to mark all fetched updates as read: %s. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/opt/homebrew/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 232, in handle_async_request
+    connection = await pool_request.wait_for_connection(timeout=timeout)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 35, in wait_for_connection
+    await self._connection_acquired.wait(timeout=timeout)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpcore/_synchronization.py", line 149, in wait
+    with map_exceptions(anyio_exc_map):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/request/_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/homebrew/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/ext/_updater.py", line 394, in _get_updates_cleanup
+    await self.bot.get_updates(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/_bot.py", line 4593, in get_updates
+    await self._post(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+  File "/opt/homebrew/lib/python3.10/site-packages/telegram/request/_httpxrequest.py", line 287, in do_request
+    raise TimedOut(
+telegram.error.TimedOut: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.

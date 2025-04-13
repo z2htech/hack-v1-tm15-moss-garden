@@ -1,0 +1,550 @@
+2025-04-13 13:58:05,500 - main - INFO - 启动应用
+2025-04-13 13:58:05,500 - database - INFO - 数据库初始化成功
+2025-04-13 13:58:05,586 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 13:58:07,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getMe "HTTP/1.1 200 OK"
+2025-04-13 13:58:07,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 13:58:14,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 13:58:16,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 13:58:16,162 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-13 13:58:20,251 - scraper - INFO - 等待页面内容加载...
+2025-04-13 13:58:25,272 - scraper - INFO - 找到 27 个交易员
+2025-04-13 13:58:25,303 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-13 13:58:25,317 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 13:58:25,329 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-13 13:58:25,341 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-13 13:58:25,351 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 13:58:25,362 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-13 13:58:25,373 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-13 13:58:25,384 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-13 13:58:25,394 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-13 13:58:25,405 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-13 13:58:25,415 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 13:58:25,426 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 13:58:25,436 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-13 13:58:25,446 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-13 13:58:25,457 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-13 13:58:25,467 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 13:58:25,477 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-13 13:58:25,487 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 13:58:25,502 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 13:58:25,513 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-13 13:58:25,524 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-13 13:58:25,534 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 13:58:25,545 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-13 13:58:25,556 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 13:58:25,566 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-13 13:58:25,578 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-13 13:58:25,589 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-13 13:58:25,589 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-13 13:58:28,652 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:58:28,655 - scraper - INFO - 成功获取到 Andrew Kang 的 3 条最近12小时内的推文
+2025-04-13 13:58:30,690 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 13:58:33,775 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:58:33,775 - scraper - INFO - 成功获取到 RunnerXBT 的 5 条最近12小时内的推文
+2025-04-13 13:58:35,806 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-13 13:58:38,867 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:58:38,868 - scraper - INFO - 成功获取到 art 的 0 条最近12小时内的推文
+2025-04-13 13:58:40,892 - scraper - INFO - 点击交易员: TheHorse (@trading__horse)
+2025-04-13 13:58:43,982 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 13:58:43,983 - scraper - INFO - 成功获取到 TheHorse 的 0 条最近12小时内的推文
+2025-04-13 13:58:46,013 - scraper - INFO - 点击交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 13:58:49,100 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:58:49,101 - scraper - INFO - 成功获取到 HORSE 🏴‍☠️ 的 5 条最近12小时内的推文
+2025-04-13 13:58:51,131 - scraper - INFO - 点击交易员: Nacho Trades (@NachoTrades)
+2025-04-13 13:58:54,192 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 13:58:54,193 - scraper - INFO - 成功获取到 Nacho Trades 的 1 条最近12小时内的推文
+2025-04-13 13:58:56,222 - scraper - INFO - 点击交易员: Awawat (@Awawat_Trades)
+2025-04-13 13:58:59,306 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:58:59,307 - scraper - INFO - 成功获取到 Awawat 的 3 条最近12小时内的推文
+2025-04-13 13:59:01,337 - scraper - INFO - 点击交易员: PC ² (@PC_Larp)
+2025-04-13 13:59:04,423 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:59:04,424 - scraper - INFO - 成功获取到 PC ² 的 3 条最近12小时内的推文
+2025-04-13 13:59:06,455 - scraper - INFO - 点击交易员: Cred (@CryptoCred)
+2025-04-13 13:59:09,533 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 13:59:09,534 - scraper - INFO - 成功获取到 Cred 的 0 条最近12小时内的推文
+2025-04-13 13:59:11,565 - scraper - INFO - 点击交易员: Reetika (@ReetikaTrades)
+2025-04-13 13:59:14,673 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 13:59:14,673 - scraper - INFO - 成功获取到 Reetika 的 0 条最近12小时内的推文
+2025-04-13 13:59:16,699 - scraper - INFO - 点击交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 13:59:19,788 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 13:59:19,789 - scraper - INFO - 成功获取到 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted 的 0 条最近12小时内的推文
+2025-04-13 13:59:21,819 - scraper - INFO - 点击交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 13:59:22,915 - scraper - ERROR - 爬取交易员 DonAlt 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 872). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:22,916 - scraper - INFO - 点击交易员: DeFi^2 (@DefiSquared)
+2025-04-13 13:59:23,953 - scraper - ERROR - 爬取交易员 DeFi^2 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:23,954 - scraper - INFO - 点击交易员: Chiefingza (@chiefingza)
+2025-04-13 13:59:24,990 - scraper - ERROR - 爬取交易员 Chiefingza 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:24,991 - scraper - INFO - 点击交易员: Pika (@pikachu_crypto)
+2025-04-13 13:59:26,038 - scraper - ERROR - 爬取交易员 Pika 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:26,039 - scraper - INFO - 点击交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 13:59:27,066 - scraper - ERROR - 爬取交易员 smartestmoney.hl 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:27,066 - scraper - INFO - 点击交易员: Nachi (@alphawifhat)
+2025-04-13 13:59:28,084 - scraper - ERROR - 爬取交易员 Nachi 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:28,085 - scraper - INFO - 点击交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 13:59:29,129 - scraper - ERROR - 爬取交易员 Joshua | MOZAIK 🇰🇷 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:29,129 - scraper - INFO - 点击交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 13:59:30,191 - scraper - ERROR - 爬取交易员 川沐｜Trumoo🐮 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:30,191 - scraper - INFO - 点击交易员: Definalist (@definalist)
+2025-04-13 13:59:31,256 - scraper - ERROR - 爬取交易员 Definalist 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:31,258 - scraper - INFO - 点击交易员: salience (@saliencexbt)
+2025-04-13 13:59:32,332 - scraper - ERROR - 爬取交易员 salience 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:32,332 - scraper - INFO - 点击交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 13:59:33,366 - scraper - ERROR - 爬取交易员 憨巴龙王 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:33,367 - scraper - INFO - 点击交易员: 带带带比特 (@daidaibtc)
+2025-04-13 13:59:34,396 - scraper - ERROR - 爬取交易员 带带带比特 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:34,397 - scraper - INFO - 点击交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 13:59:35,426 - scraper - ERROR - 爬取交易员 sigma^2 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:35,427 - scraper - INFO - 点击交易员: Game (@game_for_one)
+2025-04-13 13:59:36,458 - scraper - ERROR - 爬取交易员 Game 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:36,458 - scraper - INFO - 点击交易员: 0xSun (@0xSunNFT)
+2025-04-13 13:59:37,488 - scraper - ERROR - 爬取交易员 0xSun 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:37,488 - scraper - INFO - 点击交易员: Huma (@HumaCapital)
+2025-04-13 13:59:38,551 - scraper - ERROR - 爬取交易员 Huma 的推文失败: Message: element click intercepted: Element <div data-v-759468ba="" data-v-127306e8="" class="profile user" title="View only this trader">...</div> is not clickable at point (148, 858). Other element would receive the click: <a data-v-b9c1f7d2="" href="https://www.bwequation.com/" target="_blank" class="powered-by-bottom">...</a>
+  (Session info: chrome=135.0.7049.84)
+Stacktrace:
+0   chromedriver                        0x0000000100b26dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100b1f088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001006668d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001006b31a8 cxxbridge1$string$len + 406580
+4   chromedriver                        0x00000001006b1738 cxxbridge1$string$len + 399812
+5   chromedriver                        0x00000001006af54c cxxbridge1$string$len + 391128
+6   chromedriver                        0x00000001006ae948 cxxbridge1$string$len + 388052
+7   chromedriver                        0x00000001006a32b0 cxxbridge1$string$len + 341308
+8   chromedriver                        0x00000001006a2d3c cxxbridge1$string$len + 339912
+9   chromedriver                        0x00000001006ee7b8 cxxbridge1$string$len + 649796
+10  chromedriver                        0x00000001006a1a80 cxxbridge1$string$len + 335116
+11  chromedriver                        0x0000000100aebc74 cxxbridge1$str$ptr + 2575000
+12  chromedriver                        0x0000000100aeef40 cxxbridge1$str$ptr + 2588004
+13  chromedriver                        0x0000000100acb9fc cxxbridge1$str$ptr + 2443296
+14  chromedriver                        0x0000000100aef7bc cxxbridge1$str$ptr + 2590176
+15  chromedriver                        0x0000000100abcaf0 cxxbridge1$str$ptr + 2382100
+16  chromedriver                        0x0000000100b0f9a0 cxxbridge1$str$ptr + 2721732
+17  chromedriver                        0x0000000100b0fb2c cxxbridge1$str$ptr + 2722128
+18  chromedriver                        0x0000000100b1ecd4 cxxbridge1$str$ptr + 2783992
+19  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-13 13:59:38,648 - scraper - INFO - 已爬取 20 条推文并保存到 extracted_tweets.json
+2025-04-13 13:59:38,648 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-13 13:59:58,815 - database - INFO - 保存数据成功: X-GPT
+2025-04-13 13:59:58,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 13:59:59,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 14:00:09,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:00:19,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:00:30,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:00:40,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:00:51,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:02,011 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:12,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:22,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:32,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:43,331 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:01:53,633 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:03,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:14,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:24,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:35,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:45,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:02:55,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:05,983 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:16,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:26,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:36,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:47,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:03:57,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:07,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:18,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:28,497 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:38,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:49,137 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:04:59,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:05:09,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:05:20,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:05:30,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:05:40,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:05:51,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:01,468 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:11,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:22,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:32,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:43,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:06:53,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:03,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:14,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:24,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:34,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:45,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:07:55,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:05,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:15,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:27,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:37,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:48,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:08:59,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:09:10,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:09:20,330 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:09:30,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:09:40,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:09:51,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:10:01,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 14:10:08,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"

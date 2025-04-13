@@ -1,0 +1,13 @@
+2025-04-13 16:55:19,137 - main - INFO - 启动应用
+2025-04-13 16:55:19,137 - database - INFO - 数据库初始化成功
+2025-04-13 16:55:19,201 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 16:55:21,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getMe "HTTP/1.1 200 OK"
+2025-04-13 16:55:21,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 16:55:28,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:55:29,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 16:55:37,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:55:38,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 16:56:39,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:56:40,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 16:56:49,964 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:56:59,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"

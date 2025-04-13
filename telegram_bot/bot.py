@@ -2,6 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import logging
 import json
+import re
 
 class TelegramBot:
     def __init__(self, config, ai_processor, scraper, db_manager):
@@ -105,6 +106,14 @@ class TelegramBot:
             answer = await self.ai_processor.answer_question(user_query, tweets_data)
             
             if answer:
+                # 调整格式使其符合Telegram Markdown格式
+                # 1. 将Markdown的### 标题格式替换为*加粗文字*
+                answer = re.sub(r'### (.*)', r'*\1*', answer)
+                # 2. 确保引用块前后有空行并使用>符号
+                answer = re.sub(r'> (.*)', r'\n> \1\n', answer)
+                # 3. 用一行连字符替换多行连字符作为分隔线
+                answer = re.sub(r'---+', r'------', answer)
+                
                 # 发送消息时启用Markdown解析
                 await update.message.reply_text(answer, parse_mode="Markdown")
             else:

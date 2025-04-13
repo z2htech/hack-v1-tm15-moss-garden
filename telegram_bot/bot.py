@@ -166,19 +166,36 @@ class TelegramBot:
     
     async def list_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """列出当前关注的所有交易员"""
-        # 这里只返回一个示例列表，不实际实现功能
+        # 返回实际跟踪的交易员列表
         trader_list = """当前关注的交易员列表:
         
-1. @Andrew_Kang
-2. @DonAlt
-3. @Pentoshi
-4. @0xSun
-5. @sigma_squared
-6. @RunnerXBT
-7. @Huma
-8. @Nacho_Trades
-9. @Pika
-10. @TheHorse
+1. Andrew Kang (@Rewkang)
+2. RunnerXBT (@RunnerXBT)
+3. art (@art_xbt)
+4. TheHorse (@trading__horse)
+5. HORSE 🏴‍☠️ (@TheFlowHorse)
+6. Nacho Trades (@NachoTrades)
+7. Awawat (@Awawat_Trades)
+8. PC ² (@PC_Larp)
+9. Cred (@CryptoCred)
+10. Reetika (@ReetikaTrades)
+11. 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+12. DonAlt (@CryptoDonAlt)
+13. DeFi^2 (@DefiSquared)
+14. Chiefingza (@chiefingza)
+15. Pika (@pikachu_crypto)
+16. smartestmoney.hl (@smartestmoney_)
+17. Nachi (@alphawifhat)
+18. Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+19. 川沐｜Trumoo🐮 (@xiaomucrypto)
+20. Definalist (@definalist)
+21. salience (@saliencexbt)
+22. 憨巴龙王 (@dotyyds1234)
+23. 带带带比特 (@daidaibtc)
+24. sigma^2 (@SigmaSquared_)
+25. Game (@game_for_one)
+26. 0xSun (@0xSunNFT)
+27. Huma (@HumaCapital)
         """
         await update.message.reply_text(trader_list)
         self.logger.info(f"用户 {update.effective_user.id} 请求查看交易员列表")

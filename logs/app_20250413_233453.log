@@ -1,0 +1,134 @@
+2025-04-13 23:34:53,001 - main - INFO - 启动应用
+2025-04-13 23:34:53,002 - database - INFO - 数据库初始化成功
+2025-04-13 23:34:53,087 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 23:34:54,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getMe "HTTP/1.1 200 OK"
+2025-04-13 23:34:54,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 23:34:55,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:34:55,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:34:55,924 - telegram_bot - INFO - 用户 7787033196 请求查看交易员列表
+2025-04-13 23:35:05,751 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:35:10,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:35:11,905 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:35:17,189 - scraper - INFO - 等待页面内容加载...
+2025-04-13 23:35:22,207 - scraper - INFO - 找到 27 个交易员
+2025-04-13 23:35:22,233 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-13 23:35:22,246 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 23:35:22,257 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-13 23:35:22,267 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-13 23:35:22,278 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 23:35:22,287 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-13 23:35:22,297 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-13 23:35:22,307 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-13 23:35:22,317 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-13 23:35:22,327 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-13 23:35:22,337 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 23:35:22,347 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 23:35:22,356 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-13 23:35:22,366 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-13 23:35:22,376 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-13 23:35:22,386 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 23:35:22,400 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-13 23:35:22,417 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 23:35:22,428 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 23:35:22,437 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-13 23:35:22,447 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-13 23:35:22,457 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 23:35:22,467 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-13 23:35:22,476 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 23:35:22,487 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-13 23:35:22,497 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-13 23:35:22,506 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-13 23:35:22,506 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-13 23:35:26,623 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:35:26,628 - scraper - INFO - 成功获取到 Andrew Kang 的 5 条最近24小时内的推文
+2025-04-13 23:35:28,663 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 23:35:32,764 - scraper - INFO - 找到 81 个可能包含JSON数据的元素
+2025-04-13 23:35:32,767 - scraper - INFO - 成功获取到 RunnerXBT 的 5 条最近24小时内的推文
+2025-04-13 23:35:34,796 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-13 23:35:38,901 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:35:38,904 - scraper - INFO - 成功获取到 art 的 5 条最近24小时内的推文
+2025-04-13 23:35:40,934 - scraper - INFO - 点击交易员: TheHorse (@trading__horse)
+2025-04-13 23:35:45,013 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 23:35:45,016 - scraper - INFO - 成功获取到 TheHorse 的 5 条最近24小时内的推文
+2025-04-13 23:35:47,045 - scraper - INFO - 点击交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 23:35:51,144 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:35:51,147 - scraper - INFO - 成功获取到 HORSE 🏴‍☠️ 的 5 条最近24小时内的推文
+2025-04-13 23:35:53,176 - scraper - INFO - 点击交易员: Nacho Trades (@NachoTrades)
+2025-04-13 23:35:57,253 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 23:35:57,256 - scraper - INFO - 成功获取到 Nacho Trades 的 5 条最近24小时内的推文
+2025-04-13 23:35:59,287 - scraper - INFO - 点击交易员: Awawat (@Awawat_Trades)
+2025-04-13 23:36:03,374 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:36:03,377 - scraper - INFO - 成功获取到 Awawat 的 5 条最近24小时内的推文
+2025-04-13 23:36:05,406 - scraper - INFO - 点击交易员: PC ² (@PC_Larp)
+2025-04-13 23:36:09,497 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:36:09,499 - scraper - INFO - 成功获取到 PC ² 的 5 条最近24小时内的推文
+2025-04-13 23:36:11,539 - scraper - INFO - 点击交易员: Cred (@CryptoCred)
+2025-04-13 23:36:15,633 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:36:15,636 - scraper - INFO - 成功获取到 Cred 的 5 条最近24小时内的推文
+2025-04-13 23:36:17,672 - scraper - INFO - 点击交易员: Reetika (@ReetikaTrades)
+2025-04-13 23:36:21,786 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:36:21,789 - scraper - INFO - 成功获取到 Reetika 的 5 条最近24小时内的推文
+2025-04-13 23:36:23,816 - scraper - INFO - 点击交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 23:36:27,900 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 23:36:27,901 - scraper - INFO - 成功获取到 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted 的 5 条最近24小时内的推文
+2025-04-13 23:36:29,926 - scraper - INFO - 点击交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 23:36:34,017 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 23:36:34,019 - scraper - INFO - 成功获取到 DonAlt 的 5 条最近24小时内的推文
+2025-04-13 23:36:36,050 - scraper - INFO - 点击交易员: DeFi^2 (@DefiSquared)
+2025-04-13 23:36:40,131 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 23:36:40,133 - scraper - INFO - 成功获取到 DeFi^2 的 5 条最近24小时内的推文
+2025-04-13 23:36:42,168 - scraper - INFO - 点击交易员: Chiefingza (@chiefingza)
+2025-04-13 23:36:46,256 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:36:46,258 - scraper - INFO - 成功获取到 Chiefingza 的 5 条最近24小时内的推文
+2025-04-13 23:36:48,291 - scraper - INFO - 点击交易员: Pika (@pikachu_crypto)
+2025-04-13 23:36:52,388 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:36:52,391 - scraper - INFO - 成功获取到 Pika 的 5 条最近24小时内的推文
+2025-04-13 23:36:54,416 - scraper - INFO - 点击交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 23:36:58,512 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 23:36:58,515 - scraper - INFO - 成功获取到 smartestmoney.hl 的 5 条最近24小时内的推文
+2025-04-13 23:37:00,546 - scraper - INFO - 点击交易员: Nachi (@alphawifhat)
+2025-04-13 23:37:04,640 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:37:04,643 - scraper - INFO - 成功获取到 Nachi 的 5 条最近24小时内的推文
+2025-04-13 23:37:06,673 - scraper - INFO - 点击交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 23:37:10,764 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:37:10,766 - scraper - INFO - 成功获取到 Joshua | MOZAIK 🇰🇷 的 5 条最近24小时内的推文
+2025-04-13 23:37:12,796 - scraper - INFO - 点击交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 23:37:16,860 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 23:37:16,863 - scraper - INFO - 成功获取到 川沐｜Trumoo🐮 的 5 条最近24小时内的推文
+2025-04-13 23:37:18,892 - scraper - INFO - 点击交易员: Definalist (@definalist)
+2025-04-13 23:37:22,978 - scraper - INFO - 找到 89 个可能包含JSON数据的元素
+2025-04-13 23:37:22,981 - scraper - INFO - 成功获取到 Definalist 的 5 条最近24小时内的推文
+2025-04-13 23:37:25,010 - scraper - INFO - 点击交易员: salience (@saliencexbt)
+2025-04-13 23:37:29,085 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:37:29,087 - scraper - INFO - 成功获取到 salience 的 5 条最近24小时内的推文
+2025-04-13 23:37:31,116 - scraper - INFO - 点击交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 23:37:35,196 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 23:37:35,199 - scraper - INFO - 成功获取到 憨巴龙王 的 5 条最近24小时内的推文
+2025-04-13 23:37:37,228 - scraper - INFO - 点击交易员: 带带带比特 (@daidaibtc)
+2025-04-13 23:37:41,318 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:37:41,321 - scraper - INFO - 成功获取到 带带带比特 的 5 条最近24小时内的推文
+2025-04-13 23:37:43,351 - scraper - INFO - 点击交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 23:37:47,444 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:37:47,448 - scraper - INFO - 成功获取到 sigma^2 的 5 条最近24小时内的推文
+2025-04-13 23:37:49,477 - scraper - INFO - 点击交易员: Game (@game_for_one)
+2025-04-13 23:37:53,561 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:37:53,564 - scraper - INFO - 成功获取到 Game 的 5 条最近24小时内的推文
+2025-04-13 23:37:55,591 - scraper - INFO - 点击交易员: 0xSun (@0xSunNFT)
+2025-04-13 23:37:59,696 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 23:37:59,698 - scraper - INFO - 成功获取到 0xSun 的 5 条最近24小时内的推文
+2025-04-13 23:38:01,721 - scraper - INFO - 点击交易员: Huma (@HumaCapital)
+2025-04-13 23:38:05,780 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 23:38:05,782 - scraper - INFO - 成功获取到 Huma 的 5 条最近24小时内的推文
+2025-04-13 23:38:07,913 - scraper - INFO - 已爬取 135 条推文并保存到 extracted_tweets.json
+2025-04-13 23:38:07,913 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-13 23:39:24,285 - database - INFO - 保存数据成功: X-GPT
+2025-04-13 23:39:24,288 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:39:25,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:39:35,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:39:45,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:39:56,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:40:06,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:40:12,373 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 23:40:13,674 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 23:40:13,675 - telegram_bot - INFO - 用户 7787033196 请求查看交易员列表
+2025-04-13 23:40:20,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"

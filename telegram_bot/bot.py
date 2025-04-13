@@ -60,9 +60,12 @@ class TelegramBot:
                     self.db_manager.save_processed_data(processed_data)
         
         if results:
+            from datetime import datetime
+            current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            
             for result in results:
                 await update.message.reply_text(
-                    f"顶级交易员市场观点汇总:\n\n{result['summary']}",
+                    f"顶级交易员市场观点汇总 (*{current_time}*):\n\n{result['summary']}",
                     parse_mode="Markdown"
                 )
         else:

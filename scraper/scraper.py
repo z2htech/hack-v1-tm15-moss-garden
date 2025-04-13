@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import re
 import time
@@ -23,6 +23,15 @@ class WebScraper:
         self.chrome_options.add_argument("--no-sandbox")
         self.chrome_options.add_argument("--disable-dev-shm-usage")
         self.chrome_options.add_argument("--window-size=1920,1080")
+        self.driver = None
+    
+    def __del__(self):
+        # 确保退出时关闭driver
+        if self.driver:
+            try:
+                self.driver.quit()
+            except:
+                pass
     
     def scrape_website(self, website_config):
         try:
@@ -30,181 +39,347 @@ class WebScraper:
             self.logger.info(f"开始爬取: {url}")
             
             # 使用Selenium获取动态内容
-            driver = webdriver.Chrome(options=self.chrome_options)
-            driver.get(url)
+            self.driver = webdriver.Chrome(options=self.chrome_options)
+            self.driver.get(url)
             
             # 等待页面加载完成
             self.logger.info("等待页面内容加载...")
             time.sleep(5)  # 等待动态内容加载
             
-            try:
-                # 尝试等待主要内容加载
-                WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.CLASS_NAME, "main-content"))
-                )
-            except Exception as e:
-                self.logger.warning(f"等待特定元素超时，将继续使用当前页面: {str(e)}")
+            # 获取所有交易员
+            traders_data = self.get_all_traders()
             
-            # 获取页面内容
-            html_content = driver.page_source
-            driver.quit()
+            all_tweets = []
             
-            # 使用BeautifulSoup解析获取的HTML
-            soup = BeautifulSoup(html_content, "html.parser")
-            # 解析具体内容
-            data = self._parse_xgpt_data(soup, website_config)
+            # 遍历每个交易员
+            for trader in traders_data[:3]:  # 先爬取前3个交易员作为测试
+                trader_tweets = self.scrape_trader_tweets(trader)
+                all_tweets.extend(trader_tweets)
             
+            # 关闭浏览器
+            self.driver.quit()
+            self.driver = None
+            
+            # 格式化推文数据为字符串
+            formatted_data = self.format_tweets_data(all_tweets)
+            
+            # 保存提取的内容到文件
+            with open("extracted_tweets.json", "w", encoding="utf-8") as f:
+                json.dump(all_tweets, f, ensure_ascii=False, indent=2)
+            
+            self.logger.info(f"已爬取 {len(all_tweets)} 条推文并保存到 extracted_tweets.json")
+            
+            # ai解析的网页数据格式
             return {
                 "source": website_config["name"],
                 "url": url,
-                "data": data,
+                "data": formatted_data,
                 "timestamp": datetime.now().isoformat()
             }
         except Exception as e:
             self.logger.error(f"爬取失败: {url}, 错误: {str(e)}")
+            if self.driver:
+                self.driver.quit()
+                self.driver = None
             return None
     
-    def _parse_data(self, soup, website_config):
-        # 通用解析器，根据网站类型选择不同的专用解析器
-        if "x-gpt.bwequation.com" in website_config["url"]:
-            return self._parse_xgpt_data(soup, website_config)
-        else:
-            # 默认解析逻辑
-            self.logger.warning(f"没有针对 {website_config['url']} 的专用解析器，将使用默认解析")
-            return "无法解析网站内容，请为此网站创建专用解析器。"
+    def get_all_traders(self):
+        """获取所有交易员列表"""
+        try:
+            # 尝试查找所有交易员元素
+            trader_elements = self.driver.find_elements(By.CSS_SELECTOR, ".profile.user")
+            
+            if not trader_elements:
+                self.logger.warning("未找到交易员元素，尝试其他选择器")
+                trader_elements = self.driver.find_elements(By.CSS_SELECTOR, "[data-v-759468ba]")
+            
+            self.logger.info(f"找到 {len(trader_elements)} 个交易员")
+            
+            traders = []
+            for element in trader_elements:
+                try:
+                    # 尝试获取交易员名称和Twitter用户名
+                    name_element = element.find_element(By.CSS_SELECTOR, ".name")
+                    screen_name_element = element.find_element(By.CSS_SELECTOR, ".screen-name a")
+                    
+                    name = name_element.text.strip() if name_element else "Unknown"
+                    screen_name = screen_name_element.text.strip() if screen_name_element else ""
+                    link = screen_name_element.get_attribute("href") if screen_name_element else ""
+                    
+                    trader_info = {
+                        'element': element,
+                        'name': name,
+                        'screen_name': screen_name,
+                        'link': link
+                    }
+                    traders.append(trader_info)
+                    self.logger.info(f"添加交易员: {name} ({screen_name})")
+                except Exception as e:
+                    self.logger.error(f"获取交易员信息失败: {str(e)}")
+            
+            return traders
+            
+        except Exception as e:
+            self.logger.error(f"获取交易员列表失败: {str(e)}")
+            # 尝试截图保存页面，以便调试
+            try:
+                self.driver.save_screenshot('debug_traders_page.png')
+                self.logger.info("已保存页面截图至 debug_traders_page.png")
+            except:
+                pass
+            return []
     
-    def _parse_xgpt_data(self, soup, website_config):
-        """专门解析x-gpt.bwequation.com网站的数据"""
-        self.logger.info("使用x-gpt解析器")
-        
-        # 提取所有推文
+    def scrape_trader_tweets(self, trader):
+        """爬取指定交易员的推文"""
+        try:
+            # 点击交易员获取其推文
+            self.logger.info(f"点击交易员: {trader['name']} ({trader['screen_name']})")
+            trader['element'].click()
+            
+            # 等待推文加载
+            time.sleep(3)
+            
+            # 保存页面以便调试
+            page_source = self.driver.page_source
+            with open(f"trader_{trader['name'].replace(' ', '_')}_page.html", "w", encoding="utf-8") as f:
+                f.write(page_source)
+            
+            # 获取所有推文数据
+            try:
+                # 直接从页面中提取推文JSON数据
+                tweets_data = self.extract_tweets_json(page_source, trader['name'])
+                
+                # 过滤最近12小时内的推文
+                recent_tweets = self.filter_recent_tweets(tweets_data)
+                
+                self.logger.info(f"成功获取到 {trader['name']} 的 {len(recent_tweets)} 条最近12小时内的推文")
+                
+                # 返回到交易员列表页面
+                try:
+                    back_button = self.driver.find_element(By.CSS_SELECTOR, "button.el-icon.back-button")
+                    back_button.click()
+                    time.sleep(2)
+                except:
+                    # 如果找不到返回按钮，尝试点击"All Traders"
+                    try:
+                        all_traders_btn = self.driver.find_element(By.XPATH, "//h3[text()='All Traders']")
+                        all_traders_btn.click()
+                        time.sleep(2)
+                    except:
+                        # 仍然失败，尝试刷新页面回到主页
+                        self.driver.get(self.config["WEBSITES"][0]["url"])
+                        time.sleep(3)
+                
+                return recent_tweets
+            
+            except Exception as e:
+                self.logger.error(f"提取或解析推文失败: {str(e)}")
+                return []
+            
+        except Exception as e:
+            self.logger.error(f"爬取交易员 {trader['name']} 的推文失败: {str(e)}")
+            # 尝试返回到主页
+            try:
+                self.driver.get(self.config["WEBSITES"][0]["url"])
+                time.sleep(3)
+            except:
+                pass
+            return []
+    
+    def extract_tweets_json(self, page_source, trader_name):
+        """从页面源码中提取推文JSON数据"""
+        soup = BeautifulSoup(page_source, "html.parser")
         tweets = []
         
-        # 保存页面内容以供调试
-        with open("page_content.html", "w", encoding="utf-8") as f:
-            f.write(str(soup))
-        self.logger.info("已将页面内容保存到 page_content.html 文件中")
+        # 查找包含JSON数据的元素
+        json_elements = soup.find_all("div", attrs={"data-v-e54e3009": True})
         
-        # 尝试查找推文容器 - 单页应用可能有不同的DOM结构
-        tweet_containers = soup.find_all("div", class_=lambda c: c and any(x in c for x in ["tweet", "post", "card"]))
+        if not json_elements:
+            # 如果没有找到指定的元素，尝试查找所有可能包含JSON的元素
+            json_elements = soup.find_all("div", attrs={"style": "white-space: pre-wrap;"})
         
-        if not tweet_containers:
-            # 第二种尝试 - 查找可能包含推文的区域
-            tweet_containers = soup.find_all("div", attrs={"style": lambda s: s and "margin" in s})
+        self.logger.info(f"找到 {len(json_elements)} 个可能包含JSON数据的元素")
         
-        if not tweet_containers:
-            # 第三种尝试 - 查找所有可能是文章或推文的div
-            tweet_containers = soup.find_all("div", attrs={"role": "article"})
-        
-        self.logger.info(f"找到可能的推文容器: {len(tweet_containers)}个")
-        
-        # 如果仍然找不到，尝试通过文本内容查找
-        if not tweet_containers:
-            # 查找包含"Asset Involved"或者"Reason"等关键词的元素
-            asset_tags = soup.find_all(text=re.compile(r"Asset\s+Involved|positive|negative|Reason"))
-            if asset_tags:
-                self.logger.info(f"通过关键词找到可能的标签: {len(asset_tags)}个")
-                for tag in asset_tags:
-                    # 向上找到可能的容器
-                    potential_container = self._find_parent_container(tag)
-                    if potential_container and potential_container not in tweet_containers:
-                        tweet_containers.append(potential_container)
-        
-        # 通过文本分析提取推文
-        for container in tweet_containers:
+        for element in json_elements:
             try:
-                # 提取所有文本，按行分割
-                container_text = container.get_text(separator="\n").strip()
-                
-                # 构建一个基本结构
-                tweet = {
-                    "trader": "未知交易员",
-                    "content": "",
-                    "asset": "未知资产",
-                    "sentiment": "未知情绪",
-                    "reason": "未知原因",
-                    "explanation": "未知解释",
-                    "time": "未知时间"
-                }
-                
-                # 通过文本分析提取信息
-                lines = container_text.split("\n")
-                current_section = None
-                
-                for line in lines:
-                    line = line.strip()
-                    if not line:
-                        continue
+                # 获取JSON文本并解析
+                json_text = element.get_text(strip=True)
+                if json_text.startswith("{") and json_text.endswith("}"):
+                    tweet_data = json.loads(json_text)
                     
-                    # 尝试确定行的内容类型
-                    if re.search(r'@\w+', line):  # 用户名模式
-                        tweet["trader"] = line
-                    elif "Asset Involved" in line:
-                        current_section = "asset"
-                    elif "positive" in line.lower() or "negative" in line.lower():
-                        tweet["sentiment"] = line
-                    elif "Reason" in line:
-                        current_section = "reason"
-                    elif "Explanation" in line:
-                        current_section = "explanation"
-                    elif re.search(r'\d+\s+minute', line) or re.search(r'\d+\s+hour', line):
-                        tweet["time"] = line
-                    elif current_section == "asset" and tweet["asset"] == "未知资产":
-                        tweet["asset"] = line
-                    elif current_section == "reason" and tweet["reason"] == "未知原因":
-                        tweet["reason"] = line
-                    elif current_section == "explanation" and tweet["explanation"] == "未知解释":
-                        tweet["explanation"] = line
-                    elif not current_section and tweet["content"] == "":
-                        tweet["content"] = line
+                    # 检查是否为有效的推文数据
+                    if "tweet_username" in tweet_data or "current_tweet_content" in tweet_data:
+                        # 添加交易员名称
+                        tweet_data["trader_name"] = trader_name
+                        tweets.append(tweet_data)
+            except Exception as e:
+                self.logger.error(f"解析JSON数据失败: {str(e)}")
+        
+        # 如果上面的方法没有找到任何推文，尝试使用正则表达式直接从页面中提取
+        if not tweets:
+            try:
+                # 使用正则表达式查找所有JSON格式的文本
+                json_pattern = r'(\{[\s\S]*?"tweet_username"[\s\S]*?\})'
+                matches = re.findall(json_pattern, page_source)
                 
-                tweets.append(tweet)
+                for match in matches:
+                    try:
+                        tweet_data = json.loads(match)
+                        tweet_data["trader_name"] = trader_name
+                        tweets.append(tweet_data)
+                    except:
+                        pass
+            except Exception as e:
+                self.logger.error(f"使用正则表达式提取JSON失败: {str(e)}")
+        
+        return tweets
+    
+    def filter_recent_tweets(self, tweets_data):
+        """过滤最近12小时内的推文"""
+        current_time = datetime.now()
+        recent_tweets = []
+        
+        for tweet in tweets_data:
+            try:
+                # 尝试从推文数据中提取时间信息
+                time_info = ""
+                if "tweet_username" in tweet:
+                    # 通常格式为 "RunnerXBT (@RunnerXBT) Posted on 2025-04-12 22:17:35"
+                    username_parts = tweet["tweet_username"].split("Posted on")
+                    if len(username_parts) > 1:
+                        time_info = username_parts[1].strip()
+                
+                # 如果没有在tweet_username中找到时间，查找其他可能的字段
+                if not time_info and "timestamp" in tweet:
+                    time_info = tweet["timestamp"]
+                
+                # 尝试解析时间
+                tweet_time = None
+                is_within_12_hours = False
+                
+                # 尝试不同的时间格式
+                if time_info:
+                    try:
+                        # 尝试格式 "2025-04-12 22:17:35"
+                        tweet_time = datetime.strptime(time_info, "%Y-%m-%d %H:%M:%S")
+                    except:
+                        try:
+                            # 尝试带毫秒的格式
+                            tweet_time = datetime.strptime(time_info, "%Y-%m-%d %H:%M:%S.%f")
+                        except:
+                            # 如果上述格式都失败，尝试查找相对时间描述
+                            if "minute" in time_info or "hour" in time_info or "second" in time_info:
+                                match = re.search(r'(\d+)\s+(minute|hour|second)s?\s+ago', time_info, re.IGNORECASE)
+                                if match:
+                                    number = int(match.group(1))
+                                    unit = match.group(2).lower()
+                                    
+                                    if unit == 'second':
+                                        tweet_time = current_time - timedelta(seconds=number)
+                                    elif unit == 'minute':
+                                        tweet_time = current_time - timedelta(minutes=number)
+                                    elif unit == 'hour':
+                                        tweet_time = current_time - timedelta(hours=number)
+                
+                # 检查是否在最近12小时内
+                if tweet_time:
+                    is_within_12_hours = (current_time - tweet_time) <= timedelta(hours=12)
+                    tweet["parsed_time"] = tweet_time.isoformat()
+                    tweet["is_recent"] = is_within_12_hours
+                else:
+                    # 如果无法解析时间，默认保留该推文（保守策略）
+                    is_within_12_hours = True
+                    tweet["parsed_time"] = "unknown"
+                    tweet["is_recent"] = True
+                
+                if is_within_12_hours:
+                    recent_tweets.append(tweet)
                 
             except Exception as e:
-                self.logger.error(f"解析推文时出错: {str(e)}")
+                self.logger.error(f"过滤推文时间失败: {str(e)}")
+                # 如果时间解析失败，默认保留该推文
+                tweet["parsed_time"] = "error"
+                tweet["is_recent"] = True
+                recent_tweets.append(tweet)
         
-        # 如果没有找到推文，使用替代方法
+        return recent_tweets
+    
+    def format_tweets_data(self, tweets):
+        """将推文数据格式化为可读字符串"""
         if not tweets:
-            self.logger.warning("未找到结构化推文，尝试提取所有文本")
-            
-            # 尝试提取可能包含交易信息的文本块
-            trade_sections = []
-            all_paragraphs = soup.find_all(["p", "div"], class_=lambda c: c and "text" in str(c).lower())
-            
-            for para in all_paragraphs:
-                text = para.get_text().strip()
-                if len(text) > 50:  # 只考虑长度合理的文本块
-                    trade_sections.append(text)
-            
-            # 如果找到可能的交易信息文本，返回这些文本
-            if trade_sections:
-                return "交易信息摘要:\n\n" + "\n\n".join(trade_sections)
-            else:
-                # 如果仍然没有找到，提取整个页面的文本
-                all_text = soup.get_text(separator="\n", strip=True)
-                return f"未能提取结构化数据，以下是页面文本:\n\n{all_text[:5000]}..."
+            return "未找到最近12小时内的推文"
         
-        # 将推文数据格式化为字符串
-        formatted_data = "交易信息汇总:\n\n"
+        formatted_data = "交易信息汇总 (最近12小时):\n\n"
         for i, tweet in enumerate(tweets, 1):
             formatted_data += f"--- 推文 #{i} ---\n"
-            formatted_data += f"交易员: {tweet['trader']}\n"
-            formatted_data += f"内容: {tweet['content']}\n"
-            formatted_data += f"资产: {tweet['asset']}\n"
-            formatted_data += f"情绪: {tweet['sentiment']}\n"
-            formatted_data += f"原因: {tweet['reason']}\n"
-            formatted_data += f"解释: {tweet['explanation']}\n"
-            formatted_data += f"时间: {tweet['time']}\n\n"
+            formatted_data += f"交易员: {tweet.get('trader_name', '未知')}\n"
+            
+            # 用户名和发布时间
+            if "tweet_username" in tweet:
+                formatted_data += f"推特: {tweet['tweet_username']}\n"
+            
+            # 推文内容
+            if "current_tweet_content" in tweet:
+                formatted_data += f"内容: {tweet['current_tweet_content']}\n"
+            
+            # 情绪和资产信息 (如果有)
+            sentiment = self.extract_sentiment(tweet)
+            if sentiment:
+                formatted_data += f"情绪: {sentiment}\n"
+            
+            assets = self.extract_assets(tweet)
+            if assets:
+                formatted_data += f"相关资产: {assets}\n"
+            
+            # 是否包含图片
+            if tweet.get("picture_included", False):
+                formatted_data += f"包含图片: 是\n"
+                if "picture_urls" in tweet and tweet["picture_urls"]:
+                    formatted_data += f"图片链接: {', '.join(tweet['picture_urls'])}\n"
+            
+            # 添加分隔行
+            formatted_data += "\n"
         
         return formatted_data
     
-    def _find_parent_container(self, tag, max_levels=5):
-        """向上查找可能的容器元素"""
-        current = tag
-        for _ in range(max_levels):
-            if current.parent:
-                current = current.parent
-                # 检查这个父元素是否可能是容器
-                if current.name == "div" and (current.get("class") or current.get("id")):
-                    return current
-        return None 
+    def extract_sentiment(self, tweet):
+        """从推文中提取情绪信息"""
+        content = tweet.get("current_tweet_content", "").lower()
+        
+        # 简单的情绪分析
+        positive_words = ["bullish", "long", "buy", "uptrend", "moon", "pump", "positive", "good", "great", "excellent"]
+        negative_words = ["bearish", "short", "sell", "downtrend", "dump", "negative", "bad", "poor", "terrible"]
+        neutral_words = ["neutral", "sideways", "ranging", "consolidation"]
+        
+        positive_count = sum(1 for word in positive_words if word in content)
+        negative_count = sum(1 for word in negative_words if word in content)
+        neutral_count = sum(1 for word in neutral_words if word in content)
+        
+        if positive_count > negative_count and positive_count > neutral_count:
+            return "看涨/积极"
+        elif negative_count > positive_count and negative_count > neutral_count:
+            return "看跌/消极"
+        elif neutral_count > 0:
+            return "中性/观望"
+        else:
+            return ""
+    
+    def extract_assets(self, tweet):
+        """从推文中提取资产信息"""
+        content = tweet.get("current_tweet_content", "")
+        
+        # 查找常见加密货币符号
+        crypto_pattern = r'(\$[A-Z]{2,5})'
+        matches = re.findall(crypto_pattern, content)
+        
+        if matches:
+            return ", ".join(matches)
+        
+        # 查找常见加密货币名称
+        common_cryptos = ["Bitcoin", "Ethereum", "ETH", "BTC", "XRP", "Solana", "SOL", "Dogecoin", "DOGE"]
+        found_cryptos = [crypto for crypto in common_cryptos if crypto in content or crypto.lower() in content]
+        
+        if found_cryptos:
+            return ", ".join(found_cryptos)
+        
+        return ""

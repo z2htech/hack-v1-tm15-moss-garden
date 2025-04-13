@@ -1,11 +1,11 @@
 # API密钥和配置
-TELEGRAM_API_TOKEN = ""
-DEEPSEEK_API_KEY = ""  # 添加DeepSeek API密钥
+TELEGRAM_API_TOKEN = "<YOUR_TELEGRAM_API_TOKEN>"
+DEEPSEEK_API_KEY = "<YOUR_DEEPSEEK_API_KEY>"  # 添加DeepSeek API密钥
 
 # 爬虫配置
 WEBSITES = [
     {
-        "name": "示例网站",
+        "name": "X-GPT",
         "url": "https://x-gpt.bwequation.com/",
         "update_frequency": 3600  # 秒
     }

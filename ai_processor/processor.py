@@ -18,6 +18,7 @@ class AIProcessor:
         try:
             # 准备发送给AI的提示
             prompt = self._prepare_prompt(scraped_data)
+            print(scraped_data)
             
             # 调用DeepSeek API
             headers = {

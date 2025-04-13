@@ -1,0 +1,95 @@
+2025-04-12 23:21:23,113 - main - INFO - 启动应用
+2025-04-12 23:21:23,113 - database - INFO - 数据库初始化成功
+2025-04-12 23:21:23,196 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-12 23:21:25,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getMe "HTTP/1.1 200 OK"
+2025-04-12 23:21:25,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-12 23:21:28,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:21:29,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 23:21:29,229 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-12 23:21:30,638 - scraper - INFO - 等待页面内容加载...
+2025-04-12 23:21:40,001 - scraper - INFO - 找到 27 个交易员
+2025-04-12 23:21:40,022 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-12 23:21:40,032 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-12 23:21:40,043 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-12 23:21:40,053 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-12 23:21:40,063 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-12 23:21:40,074 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-12 23:21:40,084 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-12 23:21:40,094 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-12 23:21:40,104 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-12 23:21:40,113 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-12 23:21:40,124 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-12 23:21:40,134 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-12 23:21:40,143 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-12 23:21:40,153 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-12 23:21:40,163 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-12 23:21:40,173 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-12 23:21:40,192 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-12 23:21:40,203 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-12 23:21:40,212 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-12 23:21:40,222 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-12 23:21:40,232 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-12 23:21:40,242 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-12 23:21:40,252 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-12 23:21:40,263 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-12 23:21:40,274 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-12 23:21:40,284 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-12 23:21:40,294 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-12 23:21:40,294 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-12 23:21:43,364 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-12 23:21:43,365 - scraper - INFO - 成功获取到 Andrew Kang 的 3 条最近12小时内的推文
+2025-04-12 23:21:45,397 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-12 23:21:48,461 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-12 23:21:48,462 - scraper - INFO - 成功获取到 RunnerXBT 的 4 条最近12小时内的推文
+2025-04-12 23:21:50,484 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-12 23:21:53,533 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-12 23:21:53,534 - scraper - INFO - 成功获取到 art 的 0 条最近12小时内的推文
+2025-04-12 23:21:55,657 - scraper - INFO - 已爬取 7 条推文并保存到 extracted_tweets.json
+2025-04-12 23:21:55,658 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-12 23:22:11,149 - database - INFO - 保存数据成功: X-GPT
+2025-04-12 23:22:11,152 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:22:12,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 23:22:21,596 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:22:32,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:22:42,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:22:52,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:03,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:13,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:24,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:34,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:44,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:23:55,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:05,593 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:15,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:26,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:36,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:47,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:24:57,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:25:07,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:25:18,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:25:28,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:25:38,898 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:25:49,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:00,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:10,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:21,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:31,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:41,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:26:52,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:03,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:14,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:24,673 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:35,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:45,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:27:56,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:06,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:16,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:27,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:37,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:48,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:28:58,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:29:09,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:29:20,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:29:30,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:29:41,040 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 23:29:45,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"

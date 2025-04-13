@@ -1,0 +1,65 @@
+2025-04-12 22:46:59,069 - main - INFO - 启动应用
+2025-04-12 22:46:59,069 - database - INFO - 数据库初始化成功
+2025-04-12 22:46:59,133 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-12 22:47:13,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getMe "HTTP/1.1 200 OK"
+2025-04-12 22:47:16,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-12 22:47:19,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 22:47:20,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 22:47:20,475 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-12 22:47:23,666 - scraper - INFO - 等待页面内容加载...
+2025-04-12 22:47:38,925 - scraper - WARNING - 等待特定元素超时，将继续使用当前页面: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ca2dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000102c9b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001027e28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001028296a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010286a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x000000010281da80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000102c67c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x0000000102c6af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x0000000102c479fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x0000000102c6b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x0000000102c38af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x0000000102c8b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x0000000102c8bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x0000000102c9acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-12 22:47:39,034 - scraper - INFO - 使用x-gpt解析器
+2025-04-12 22:47:39,040 - scraper - INFO - 已将页面内容保存到 page_content.html 文件中
+2025-04-12 22:47:39,041 - scraper - INFO - 找到可能的推文容器: 27个
+2025-04-12 22:47:39,042 - ai_processor - INFO - 处理来自 示例网站 的数据
+2025-04-12 22:48:04,187 - database - INFO - 保存数据成功: 示例网站
+2025-04-12 22:48:04,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 22:48:07,687 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 22:48:08,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 22:48:08,867 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-12 22:48:10,114 - scraper - INFO - 等待页面内容加载...
+2025-04-12 22:48:25,550 - scraper - WARNING - 等待特定元素超时，将继续使用当前页面: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102a52dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000102a4b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001025928d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001025d96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010261a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x00000001025cda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000102a17c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x0000000102a1af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001029f79fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x0000000102a1b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001029e8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x0000000102a3b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x0000000102a3bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x0000000102a4acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000190f8b2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190f860fc thread_start + 8
+
+2025-04-12 22:48:25,650 - scraper - INFO - 使用x-gpt解析器
+2025-04-12 22:48:25,656 - scraper - INFO - 已将页面内容保存到 page_content.html 文件中
+2025-04-12 22:48:25,657 - scraper - INFO - 找到可能的推文容器: 27个
+2025-04-12 22:48:25,657 - ai_processor - INFO - 处理来自 示例网站 的数据
+2025-04-12 22:48:49,932 - database - INFO - 保存数据成功: 示例网站
+2025-04-12 22:48:49,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 22:48:52,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 22:48:52,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7647743490:AAE-gjtb4X7KJVuzJg_c-58KSS6bOX0-xi4/sendMessage "HTTP/1.1 200 OK"

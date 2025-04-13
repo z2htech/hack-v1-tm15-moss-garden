@@ -1,0 +1,154 @@
+2025-04-13 16:39:35,252 - main - INFO - 启动应用
+2025-04-13 16:39:35,253 - database - INFO - 数据库初始化成功
+2025-04-13 16:39:35,334 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 16:39:36,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getMe "HTTP/1.1 200 OK"
+2025-04-13 16:39:36,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 16:39:42,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:39:42,926 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:39:54,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:40:04,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:40:15,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:40:26,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:40:34,896 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:40:36,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 16:40:36,737 - scraper - INFO - 开始爬取: https://x-gpt.bwequation.com/
+2025-04-13 16:40:40,951 - scraper - INFO - 等待页面内容加载...
+2025-04-13 16:40:45,965 - scraper - INFO - 找到 27 个交易员
+2025-04-13 16:40:45,987 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-13 16:40:45,998 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 16:40:46,009 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-13 16:40:46,020 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-13 16:40:46,030 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 16:40:46,040 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-13 16:40:46,055 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-13 16:40:46,066 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-13 16:40:46,080 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-13 16:40:46,092 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-13 16:40:46,103 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 16:40:46,114 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 16:40:46,123 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-13 16:40:46,133 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-13 16:40:46,143 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-13 16:40:46,153 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 16:40:46,162 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-13 16:40:46,172 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 16:40:46,183 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 16:40:46,193 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-13 16:40:46,203 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-13 16:40:46,214 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 16:40:46,224 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-13 16:40:46,234 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 16:40:46,244 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-13 16:40:46,254 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-13 16:40:46,264 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-13 16:40:46,264 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-13 16:40:50,363 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:40:50,368 - scraper - INFO - 成功获取到 Andrew Kang 的 5 条最近24小时内的推文
+2025-04-13 16:40:52,404 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 16:40:56,499 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:40:56,502 - scraper - INFO - 成功获取到 RunnerXBT 的 5 条最近24小时内的推文
+2025-04-13 16:40:58,531 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-13 16:41:02,626 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:41:02,629 - scraper - INFO - 成功获取到 art 的 5 条最近24小时内的推文
+2025-04-13 16:41:04,660 - scraper - INFO - 点击交易员: TheHorse (@trading__horse)
+2025-04-13 16:41:08,755 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 16:41:08,758 - scraper - INFO - 成功获取到 TheHorse 的 5 条最近24小时内的推文
+2025-04-13 16:41:10,789 - scraper - INFO - 点击交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 16:41:14,867 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:41:14,869 - scraper - INFO - 成功获取到 HORSE 🏴‍☠️ 的 5 条最近24小时内的推文
+2025-04-13 16:41:16,899 - scraper - INFO - 点击交易员: Nacho Trades (@NachoTrades)
+2025-04-13 16:41:20,963 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 16:41:20,966 - scraper - INFO - 成功获取到 Nacho Trades 的 5 条最近24小时内的推文
+2025-04-13 16:41:22,995 - scraper - INFO - 点击交易员: Awawat (@Awawat_Trades)
+2025-04-13 16:41:27,070 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:41:27,073 - scraper - INFO - 成功获取到 Awawat 的 5 条最近24小时内的推文
+2025-04-13 16:41:29,104 - scraper - INFO - 点击交易员: PC ² (@PC_Larp)
+2025-04-13 16:41:33,174 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:41:33,177 - scraper - INFO - 成功获取到 PC ² 的 5 条最近24小时内的推文
+2025-04-13 16:41:35,204 - scraper - INFO - 点击交易员: Cred (@CryptoCred)
+2025-04-13 16:41:39,270 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:41:39,273 - scraper - INFO - 成功获取到 Cred 的 5 条最近24小时内的推文
+2025-04-13 16:41:41,308 - scraper - INFO - 点击交易员: Reetika (@ReetikaTrades)
+2025-04-13 16:41:45,392 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:41:45,394 - scraper - INFO - 成功获取到 Reetika 的 5 条最近24小时内的推文
+2025-04-13 16:41:47,422 - scraper - INFO - 点击交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 16:41:51,518 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 16:41:51,521 - scraper - INFO - 成功获取到 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted 的 5 条最近24小时内的推文
+2025-04-13 16:41:53,551 - scraper - INFO - 点击交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 16:41:57,649 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:41:57,652 - scraper - INFO - 成功获取到 DonAlt 的 5 条最近24小时内的推文
+2025-04-13 16:41:59,683 - scraper - INFO - 点击交易员: DeFi^2 (@DefiSquared)
+2025-04-13 16:42:03,778 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 16:42:03,781 - scraper - INFO - 成功获取到 DeFi^2 的 5 条最近24小时内的推文
+2025-04-13 16:42:05,811 - scraper - INFO - 点击交易员: Chiefingza (@chiefingza)
+2025-04-13 16:42:09,906 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:42:09,909 - scraper - INFO - 成功获取到 Chiefingza 的 5 条最近24小时内的推文
+2025-04-13 16:42:11,941 - scraper - INFO - 点击交易员: Pika (@pikachu_crypto)
+2025-04-13 16:42:16,023 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:42:16,026 - scraper - INFO - 成功获取到 Pika 的 5 条最近24小时内的推文
+2025-04-13 16:42:18,058 - scraper - INFO - 点击交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 16:42:22,156 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 16:42:22,159 - scraper - INFO - 成功获取到 smartestmoney.hl 的 5 条最近24小时内的推文
+2025-04-13 16:42:24,190 - scraper - INFO - 点击交易员: Nachi (@alphawifhat)
+2025-04-13 16:42:28,286 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:42:28,289 - scraper - INFO - 成功获取到 Nachi 的 5 条最近24小时内的推文
+2025-04-13 16:42:30,321 - scraper - INFO - 点击交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 16:42:34,407 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:42:34,409 - scraper - INFO - 成功获取到 Joshua | MOZAIK 🇰🇷 的 5 条最近24小时内的推文
+2025-04-13 16:42:36,438 - scraper - INFO - 点击交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 16:42:40,541 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 16:42:40,543 - scraper - INFO - 成功获取到 川沐｜Trumoo🐮 的 5 条最近24小时内的推文
+2025-04-13 16:42:42,572 - scraper - INFO - 点击交易员: Definalist (@definalist)
+2025-04-13 16:42:46,666 - scraper - INFO - 找到 89 个可能包含JSON数据的元素
+2025-04-13 16:42:46,669 - scraper - INFO - 成功获取到 Definalist 的 5 条最近24小时内的推文
+2025-04-13 16:42:48,699 - scraper - INFO - 点击交易员: salience (@saliencexbt)
+2025-04-13 16:42:52,793 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:42:52,796 - scraper - INFO - 成功获取到 salience 的 5 条最近24小时内的推文
+2025-04-13 16:42:54,827 - scraper - INFO - 点击交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 16:42:58,905 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 16:42:58,908 - scraper - INFO - 成功获取到 憨巴龙王 的 5 条最近24小时内的推文
+2025-04-13 16:43:00,939 - scraper - INFO - 点击交易员: 带带带比特 (@daidaibtc)
+2025-04-13 16:43:05,023 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 16:43:05,025 - scraper - INFO - 成功获取到 带带带比特 的 5 条最近24小时内的推文
+2025-04-13 16:43:07,054 - scraper - INFO - 点击交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 16:43:11,127 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:43:11,129 - scraper - INFO - 成功获取到 sigma^2 的 5 条最近24小时内的推文
+2025-04-13 16:43:13,156 - scraper - INFO - 点击交易员: Game (@game_for_one)
+2025-04-13 16:43:17,249 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:43:17,252 - scraper - INFO - 成功获取到 Game 的 5 条最近24小时内的推文
+2025-04-13 16:43:19,282 - scraper - INFO - 点击交易员: 0xSun (@0xSunNFT)
+2025-04-13 16:43:23,403 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 16:43:23,406 - scraper - INFO - 成功获取到 0xSun 的 5 条最近24小时内的推文
+2025-04-13 16:43:25,433 - scraper - INFO - 点击交易员: Huma (@HumaCapital)
+2025-04-13 16:43:29,528 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 16:43:29,532 - scraper - INFO - 成功获取到 Huma 的 5 条最近24小时内的推文
+2025-04-13 16:43:31,662 - scraper - INFO - 已爬取 135 条推文并保存到 extracted_tweets.json
+2025-04-13 16:43:31,662 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-13 16:44:58,111 - database - INFO - 保存数据成功: X-GPT
+2025-04-13 16:44:58,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:44:59,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 16:45:09,248 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:45:19,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:45:30,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:45:41,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:45:51,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 16:45:57,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:45:57,589 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:03,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:03,434 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:10,195 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:10,197 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:18,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:18,593 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:26,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:26,270 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:40,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:40,074 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:46:57,640 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:46:57,641 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:47:15,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:47:15,061 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:47:37,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:47:37,731 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-04-13 16:48:08,884 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 409 Conflict"
+2025-04-13 16:48:08,884 - telegram_bot - ERROR - 更新 None 导致错误 Conflict: terminated by other getUpdates request; make sure that only one bot instance is running

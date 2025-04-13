@@ -61,9 +61,8 @@ class TelegramBot:
         if results:
             for result in results:
                 await update.message.reply_text(
-                    f"顶级交易员市场观点汇总:\n\n"
-                    f"{result['summary']}\n\n"
-                    f"数据来源: {result['original_data']['url']}"
+                    f"顶级交易员市场观点汇总:\n\n{summary}",
+                    parse_mode="Markdown"
                 )
         else:
             await update.message.reply_text("抱歉，没有获取到新信息。")
@@ -106,7 +105,8 @@ class TelegramBot:
             answer = await self.ai_processor.answer_question(user_query, tweets_data)
             
             if answer:
-                await update.message.reply_text(answer)
+                # 发送消息时启用Markdown解析
+                await update.message.reply_text(answer, parse_mode="Markdown")
             else:
                 await update.message.reply_text("抱歉，AI处理您的问题时遇到了困难。请稍后再试或尝试重新表述您的问题。")
         

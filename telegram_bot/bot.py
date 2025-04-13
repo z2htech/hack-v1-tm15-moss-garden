@@ -62,7 +62,7 @@ class TelegramBot:
         if results:
             for result in results:
                 await update.message.reply_text(
-                    f"顶级交易员市场观点汇总:\n\n{summary}",
+                    f"顶级交易员市场观点汇总:\n\n{result['summary']}",
                     parse_mode="Markdown"
                 )
         else:

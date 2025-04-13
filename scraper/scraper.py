@@ -36,7 +36,6 @@ class WebScraper:
     def scrape_website(self, website_config):
         try:
             url = website_config["url"]
-            self.logger.info(f"开始爬取: {url}")
             
             # 使用Selenium获取动态内容
             self.driver = webdriver.Chrome(options=self.chrome_options)

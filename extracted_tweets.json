@@ -2,13 +2,39 @@
   {
     "trader_name": "Andrew Kang",
     "sentiment": "neutral",
+    "sentiment_reason": "The tweet primarily comments on an external sentiment regarding semiconductor and electronic tariffs, without expressing a clear bullish or bearish view on any specific assets. The meme included suggests a cyclical sentiment without commitment to a direction.",
+    "sentiment_explanation": "Andrew Kang's tweet quotes Walter Bloomberg's statement about pending semiconductor tariffs and includes a meme illustrating a fluctuating market sentiment. The lack of a defined stance implies neutrality toward specific assets.",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 19 minutes ago",
+    "current_tweet_content": "https://x.com/deitaone/status/1911407490245230643",
+    "picture_included": true,
+    "picture_urls": [
+      "https://pbs.twimg.com/media/Goa9B9GXYAA3PVs.jpg"
+    ],
+    "parsed_time": "2025-04-13T22:16:02.885056",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Andrew Kang",
+    "sentiment": "neutral",
+    "sentiment_reason": "The sentiment is neutral because the original tweet by Walter Bloomberg discusses upcoming tariffs on semiconductors and electronics, which may impact a specific market but does not express a clear positive or negative stance. Andrew Kang's response ('wtf') indicates a reaction but lacks context as to whether it's positive or negative.",
+    "sentiment_explanation": "Andrew Kang is reacting to news about upcoming semiconductor and electronic tariffs announced by Walter Bloomberg but does not provide a clear opinion on the matter, making his sentiment neutral.",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 24 minutes ago",
+    "current_tweet_content": "wtf https://x.com/deitaone/status/1911407490245230643",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T22:11:02.885056",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Andrew Kang",
+    "sentiment": "neutral",
     "sentiment_reason": "The tweet is a retweet of another user's comment on tariff exemptions related to US-China imports, discussing economic policy rather than expressing a sentiment specifically towards cryptocurrencies or any particular market trend.",
     "sentiment_explanation": "Andrew Kang is sharing an analysis of US import tariffs from a tweet by The Kobeissi Letter. The content focuses on economic implications of tariff exemptions rather than any specific sentiment about cryptocurrencies or trading.",
-    "tweet_username": "Andrew Kang (@Rewkang) Posted on 17 hours ago",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 23 hours ago",
     "current_tweet_content": "RT @KobeissiLetter: Let's put the tariff exemptions into perspective:\n\nThe US imports approximately $100 billion of computers, smartphones,…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T23:40:50.366802",
+    "parsed_time": "2025-04-12T23:35:02.885056",
     "is_recent": true
   },
   {
@@ -17,11 +43,11 @@
     "asset_involved": "$BTC",
     "sentiment_reason": "The tweet indicates that the ongoing trade war and a potential Trump Put are seen as catalysts for Bitcoin ($BTC) to reverse its downtrend, expressing optimism about a market rebound.",
     "sentiment_explanation": "The trader believes that the combination of the trade war and the conditions suggested by a Trump Put will lead to a reversal of Bitcoin's prolonged decline, encouraging a bullish viewpoint on $BTC.",
-    "tweet_username": "Andrew Kang (@Rewkang) Posted on 18 hours ago",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 04-12",
     "current_tweet_content": "Trade war causing capitulation and Trump Put coming in are the perfect combination for $BTC to reverse a multi month downtrend \n\nSend it https://x.com/rewkang/status/1909971579200479662",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:40:50.366802",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -29,95 +55,72 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet is a retweet of a message discussing tariff exemptions by the Trump administration related to smartphones and consumer electronics. There is no direct sentiment expressed towards cryptocurrencies or market conditions.",
     "sentiment_explanation": "The trader is sharing information about tariff exemptions on electronics without expressing a personal opinion or stance about the market or specific assets.",
-    "tweet_username": "Andrew Kang (@Rewkang) Posted on 18 hours ago",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 04-12",
     "current_tweet_content": "RT @NickTimiraos: The Trump administration has exempted smartphones and consumer electronics from the tariffs (which it has claimed are pai…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:40:50.366802",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Andrew Kang",
-    "sentiment": "positive",
-    "sentiment_reason": "The trader is referencing a tweet from Donald Trump which encourages buying, indicating a bullish sentiment. The phrase 'paid group signal for free' suggests that there's valuable information or a signal being shared without charge, reinforcing a positive outlook.",
-    "sentiment_explanation": "Andrew Kang is promoting a signal provided by Donald Trump that suggests it's a favorable time to invest. He implies that this signal is valuable, being offered at no cost, and links it to Trump's tweet advocating for purchasing.",
-    "tweet_username": "Andrew Kang (@Rewkang) Posted on 04-10",
-    "current_tweet_content": "Trump gave us a paid group signal for free https://x.com/rewkang/status/1909971579200479662",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "unknown",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Andrew Kang",
-    "sentiment": "positive",
-    "sentiment_reason": "The sentiment is deemed positive primarily due to the quoted content by Trump, which asserts that 'THIS IS A GREAT TIME TO BUY!!!'. This statement suggests a favorable view on the market or investment opportunities, implying that current conditions warrant purchases. Andrew Kang's tweet references this sentiment by quoting it, indicating an alignment or engagement with the notion of market action.",
-    "sentiment_explanation": "Andrew Kang references a tweet by Donald Trump regarding a market opportunity, echoing the positive sentiment expressed by Trump about it being the right time to buy. The context of a pause in reciprocal tariffs may also lend optimism to market conditions.",
-    "tweet_username": "Andrew Kang (@Rewkang) Posted on 04-10",
-    "current_tweet_content": "*TRUMP: AUTHORIZED 90 DAY PAUSE, LOWERED RECIPROCAL TARIFF OF 10%\n\nSimon Says, Trump Edition https://x.com/rewkang/status/1909971579200479662",
-    "picture_included": false,
-    "picture_urls": [],
     "parsed_time": "unknown",
     "is_recent": true
   },
   {
     "trader_name": "RunnerXBT",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not provide any specific information or context regarding the market or any assets. The expression 'wow Paddy' lacks clarity in sentiment analysis.",
-    "sentiment_explanation": "The trader is expressing surprise or admiration towards someone named Paddy, but there is no indication of how this relates to the crypto market.",
-    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 4 hours ago",
-    "current_tweet_content": "wow Paddy",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "2025-04-13T12:40:56.501948",
+    "sentiment_reason": "The current tweet content is empty, and no sentiment can be inferred from the image included.",
+    "sentiment_explanation": "The trader has not provided any text in the tweet, making it impossible to assess their sentiment or viewpoint.",
+    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 33 minutes ago",
+    "picture_included": true,
+    "picture_urls": [
+      "https://pbs.twimg.com/media/Goa56a8XUAAHt0p.jpg"
+    ],
+    "parsed_time": "2025-04-13T22:02:09.028349",
     "is_recent": true
   },
   {
     "trader_name": "RunnerXBT",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not discuss any cryptocurrency or market sentiment. It focuses on a political figure's support at an event, which is unrelated to the crypto market.",
-    "sentiment_explanation": "The trader is simply reporting on the political support for Trump at a UFC event, without making any statements about cryptocurrencies or trading.",
-    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 6 hours ago",
-    "current_tweet_content": "Trump still getting very much chanted/supported at UFC event",
+    "sentiment_reason": "The tweet is a retweet discussing potential tariffs on electronic and pharmaceutical products. There are no direct mentions of specific cryptocurrencies or a clear sentiment expressed towards the crypto market.",
+    "sentiment_explanation": "The trader, RunnerXBT, is simply sharing information about impending tariffs on electronic and pharmaceutical products as reported by the Kobeissi Letter, without revealing any opinion on the matter or its implications for the crypto market.",
+    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 33 minutes ago",
+    "current_tweet_content": "RT @KobeissiLetter: BREAKING: Commerce Secretary Lutnick says electrotonic products will have \"special tariffs\" coming soon.\n\nHe also says…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T10:40:56.501948",
+    "parsed_time": "2025-04-13T22:02:09.028349",
     "is_recent": true
   },
   {
     "trader_name": "RunnerXBT",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not discuss any cryptocurrencies or trading concepts. It expresses excitement about a golf event, which is unrelated to the crypto market.",
-    "sentiment_explanation": "The trader is expressing enthusiasm for a golf tournament, showing no connection or opinion about crypto assets or the market.",
-    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 13 hours ago",
-    "current_tweet_content": "what an insane start to round 3 of Masters man\n\noh my god i love golf so much",
+    "sentiment_reason": "The tweet discusses conflicting headlines from different sources regarding the Trump administration's news, indicating a mix of bullish and bearish perspectives without providing a clear stance on the cryptocurrency market or specific assets.",
+    "sentiment_explanation": "The trader is highlighting contrasting news from the Trump administration over the weekend, with bullish headlines from Saturday and bearish ones from Sunday, but does not express a specific opinion on the impact of these headlines on the market.",
+    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 41 minutes ago",
+    "current_tweet_content": "Trump admin this weekend\n- super bullish headlines Saturday\n- Lutnick super bearish headlines Sunday\n\nWHO LET THEM COOK?",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T03:40:56.501948",
+    "parsed_time": "2025-04-13T21:54:09.028349",
     "is_recent": true
   },
   {
     "trader_name": "RunnerXBT",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not mention any cryptocurrencies or financial instruments, and it expresses admiration for a professional golfer rather than the crypto market.",
-    "sentiment_explanation": "The trader is expressing excitement about a golfer's performance and does not discuss or indicate any opinion on crypto assets.",
-    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 13 hours ago",
-    "current_tweet_content": "bryson dechambeau is a fucking stud man what a putt",
+    "sentiment_reason": "The tweet is a retweet of another user's comment on US-China tariffs, which does not express a clear sentiment towards any specific cryptocurrency or market movement. The focus is on macroeconomic commentary rather than direct trading implications.",
+    "sentiment_explanation": "The trader is sharing news about U.S. tariffs and their discussions with China, but there is no mention or implication regarding cryptocurrency or trading sentiment.",
+    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 46 minutes ago",
+    "current_tweet_content": "RT @DeItaone: LUTNICK SAYS U.S. HAS HAD \"SOFT ENTREES\" THROUGH INTERMEDIARIES WITH CHINA ON TARIFFS",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T03:40:56.501948",
+    "parsed_time": "2025-04-13T21:49:09.028349",
     "is_recent": true
   },
   {
     "trader_name": "RunnerXBT",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not provide any information related to cryptocurrencies or trading. The content is personal and does not convey any market sentiment or opinion.",
-    "sentiment_explanation": "The trader is sharing a personal achievement of taking 29,000 steps, which does not relate to the crypto market.",
-    "tweet_username": "RunnerXBT (@RunnerXBT) Posted on 15 hours ago",
-    "current_tweet_content": "29k steps today \n\nfeels so good",
+    "sentiment_reason": "The tweet is a retweet of a message discussing tariff exemptions by the Trump administration related to smartphones and consumer electronics. There is no direct sentiment expressed towards cryptocurrencies or market conditions.",
+    "sentiment_explanation": "The trader is sharing information about tariff exemptions on electronics without expressing a personal opinion or stance about the market or specific assets.",
+    "tweet_username": "Andrew Kang (@Rewkang) Posted on 04-12",
+    "current_tweet_content": "RT @NickTimiraos: The Trump administration has exempted smartphones and consumer electronics from the tariffs (which it has claimed are pai…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T01:40:56.501948",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -249,38 +252,49 @@
   {
     "trader_name": "HORSE 🏴‍☠️",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet is a retweet of someone else's content that humorously suggests engaging in risky behavior in the market over the weekend without any specific asset mentioned. The tone is light-hearted and does not express a positive or negative outlook on the market or any particular cryptocurrency.",
-    "sentiment_explanation": "The trader is sharing a humorous take on weekend trading behavior, implying that taking some reckless actions could lead to tax benefits, but there is no clear stance on market conditions or specific assets.",
-    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 17 hours ago",
-    "current_tweet_content": "RT @insiliconot: Its weekend, dont forget to do some stupid shit in market so u could be reallocated to a lower tax bracket in monday",
+    "sentiment_reason": "The tweet does not express a clear positive or negative stance toward cryptocurrency or the market. It references a retweet discussing market reactions and expert opinions without providing an opinion on any specific assets.",
+    "sentiment_explanation": "The trader is sharing a retweet that addresses market reactions and critiques the responses of experts, but does not provide their own assessment or influence on the market situation.",
+    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 2 hours ago",
+    "current_tweet_content": "RT @BlacklionCTA: No material facts changed since April 2nd, just semi predictable reactions that supposed experts in the admin failed to c…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T23:41:14.869819",
+    "parsed_time": "2025-04-13T20:35:27.410335",
     "is_recent": true
   },
   {
     "trader_name": "HORSE 🏴‍☠️",
-    "sentiment": "positive",
-    "asset_involved": "ARKHM, BTC, SOL, ETH, SUI",
-    "sentiment_reason": "The trader expresses excitement about joining Arkham and promoting their new US spot market. The mention of a 50% discount on trading fees implies a positive outlook on Arkham’s offerings, suggesting they are anticipating increased trading activity.",
-    "sentiment_explanation": "The trader is enthusiastic about participating in Arkham's new US market and encourages engagement by highlighting the benefits, such as reduced trading fees. This sentiment indicates confidence in Arkham's potential positive impact on the crypto market.",
-    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 15 hours ago",
-    "current_tweet_content": "RT @TheFlowHorse: I am excited to join Arkham in getting more attention to their new US spot market. Perps are available too for users outs…",
+    "sentiment": "negative",
+    "sentiment_reason": "The trader is indicating that there will be no new all-time highs (ATHs) soon due to a smaller stack of available leverage (gunpowder stack). This suggests a bearish outlook on the market, as the sentiment reflects concerns about volatility and investment limitations.",
+    "sentiment_explanation": "The trader, HORSE, agrees with the statement made by Derivatives Don, implying that market conditions are not favorable for reaching new all-time highs due to reduced leverage and volatility.",
+    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 2 hours ago",
+    "current_tweet_content": "Bingo. No new ATHs soon when the gunpowder stack is smaller. https://x.com/derivativesdon/status/1911394007017456053",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T01:41:14.869819",
+    "parsed_time": "2025-04-13T20:35:27.410335",
     "is_recent": true
   },
   {
     "trader_name": "HORSE 🏴‍☠️",
-    "sentiment": "neutral",
-    "sentiment_reason": "The tweet is a retweet of someone else's message without providing additional commentary or context. The original tweet discusses an 'apocalypse narrative,' which does not imply a specific sentiment towards any cryptocurrency or market. The lack of direct opinion or personal insight in the tweet makes it neutral.",
-    "sentiment_explanation": "The trader is sharing a tweet from another user about creating a narrative related to an 'apocalypse' for engagement purposes, without expressing a personal stance or opinion on any particular asset or market trend.",
-    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 15 hours ago",
-    "current_tweet_content": "RT @god: still tuning the apocalypse narrative for max engagement",
+    "sentiment": "negative",
+    "sentiment_reason": "The sentiment is assigned negative due to the retweeted content highlighting serious concerns about political missteps and their impact on market conditions. The tone conveys a sense of inevitability regarding negative outcomes and suggests that traders should brace for adverse effects.",
+    "sentiment_explanation": "The trader is sharing a retweet that discusses the negative implications of certain political actions and their disastrous effects on the market. It underscores a warning about volatility and the need for preparation amidst uncertainty.",
+    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 2 hours ago",
+    "current_tweet_content": "RT @DerivativesDon: Some bad news for you\n\nYou can’t pretend it never happened\n\nYou can’t make the political (mis)steps go away\n\nYou can’t…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T01:41:14.869819",
+    "parsed_time": "2025-04-13T20:35:27.410335",
+    "is_recent": true
+  },
+  {
+    "trader_name": "HORSE 🏴‍☠️",
+    "sentiment": "negative",
+    "sentiment_reason": "The trader retweets a message that disparages individuals holding onto their investments with false hope for positive developments. The overall tone is mocking and cynical, indicating a bearish sentiment towards those currently in the market.",
+    "sentiment_explanation": "The trader is sharing a tweet that ridicules those who believe the market will turn around and improve, suggesting that they are misinformed and possibly in a losing position. This implies a lack of faith in any upcoming positive changes in the market.",
+    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 3 hours ago",
+    "current_tweet_content": "RT @Citrini7: lmao at all the bagholders who are..\n\n*checks notes*\n\n…holding out hope for developments that result in us not going into a s…",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T19:35:27.410335",
     "is_recent": true
   },
   {
@@ -288,24 +302,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet content is mainly an expression of relief or gratitude, following a quoted statement that is not elaborated upon in the context of trading or market sentiment. There is no clear indication of a bullish or bearish stance towards any asset.",
     "sentiment_explanation": "The trader expresses a sense of relief with the phrase 'Thank God.' However, without further context about the content of the quoted tweet, it is unclear what the sentiment specifically refers to. Overall, it appears more like a response to a general situation rather than a direct commentary on the market.",
-    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 6 hours ago",
+    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 12 hours ago",
     "current_tweet_content": "Thank God. https://x.com/inversebrah/status/1911232149459755421",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T10:41:14.869819",
-    "is_recent": true
-  },
-  {
-    "trader_name": "HORSE 🏴‍☠️",
-    "sentiment": "neutral",
-    "asset_involved": "SPX, VIX",
-    "sentiment_reason": "The tweet is a retweet of a speculative prediction about market conditions at the end of 2025. It does not express a clear bullish or bearish sentiment towards any specific assets, simply relaying information about potential future market behavior.",
-    "sentiment_explanation": "The trader is sharing a retweet that outlines various potential scenarios for the market by the end of 2025, including the S&P 500 (SPX) closing flat and the VIX normalizing. There is no clear opinion or personal sentiment expressed in this retweet.",
-    "tweet_username": "HORSE 🏴‍☠️ (@TheFlowHorse) Posted on 17 hours ago",
-    "current_tweet_content": "RT @QEternity: the day is dec 31, 2025:\n- spx closes flat for the year\n- vix normalizes from all time high of 686\n- CTAs finish the year do…",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "2025-04-12T23:41:14.869819",
+    "parsed_time": "2025-04-13T10:35:27.410335",
     "is_recent": true
   },
   {
@@ -313,11 +314,11 @@
     "sentiment": "positive",
     "sentiment_reason": "The trader shared an optimistic commentary from another user about the potential positive impact of Trump's tariff exemption on stocks, indicating a bullish sentiment towards the stock market.",
     "sentiment_explanation": "The trader is highlighting a tweet about Trump's tariff exemption which he sees as a bullish factor for the stock market, suggesting that he believes stocks will perform well as a result.",
-    "tweet_username": "Nacho Trades (@NachoTrades) Posted on 15 hours ago",
+    "tweet_username": "Nacho Trades (@NachoTrades) Posted on 21 hours ago",
     "current_tweet_content": "RT @krugermacro: Trump just exempted \"phones, computers, chips from new tariffs\". More bullish capitulation. Stocks will soar on Monday.",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T01:41:20.966471",
+    "parsed_time": "2025-04-13T01:35:33.540371",
     "is_recent": true
   },
   {
@@ -376,15 +377,28 @@
   },
   {
     "trader_name": "Awawat",
+    "sentiment": "positive",
+    "asset_involved": "BTC",
+    "sentiment_reason": "The retweeted content discusses a market shift from aggression to capitulation, indicating a bullish turn as protective bear plays were dumped and call options were lifted amid a BTC surge. This context suggests a favorable outlook on BTC performance.",
+    "sentiment_explanation": "The trader is sharing insights on the market's recent movements, indicating that BTC has experienced a significant positive shift, moving from lower prices to a surge, and this suggests increasing confidence in the asset's future performance.",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 3 hours ago",
+    "current_tweet_content": "RT @DeribitInsights: 1) Trump's bond-market-crisis fueled tariff-walkback flipped the vocal narrative from aggression to capitulation, and…",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T19:35:39.637958",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Awawat",
     "sentiment": "negative",
     "asset_involved": "Blocktower, Bitfinex, Binance",
     "sentiment_reason": "The mention of Blocktower in a context suggesting something negative ('did Blocktower blow up or something?') implies a concern or criticism about recent developments related to the asset. The phrase 'never go full Bitfinex’ed' suggests a previous negative sentiment associated with Bitfinex, indicating distrust. The trader’s wording implies caution and unease regarding the situation in the crypto market.",
     "sentiment_explanation": "The trader is questioning whether there has been a significant negative event related to Blocktower, reflecting concern about the asset's status. Additionally, they reference a negative sentiment towards Bitfinex, hinting at broader issues in the crypto market.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 7 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 13 hours ago",
     "current_tweet_content": "did Blocktower blow up or something? never go full Bitfinex’ed https://x.com/aridavidpaul/status/1911023718454669700",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T09:41:27.073544",
+    "parsed_time": "2025-04-13T09:35:39.637958",
     "is_recent": true
   },
   {
@@ -393,11 +407,11 @@
     "asset_involved": "Ethereum",
     "sentiment_reason": "The trader is sharing a retweet that highlights a profit opportunity from a recent purchase of Ethereum, which suggests a positive sentiment towards the asset and the market. The mention of 'a lot of opportunities' indicates optimism about further prospects.",
     "sentiment_explanation": "The trader is emphasizing that buying Ethereum recently would have resulted in a profit, indicating that they see Ethereum as a valuable asset with ongoing trading opportunities.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 9 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 15 hours ago",
     "current_tweet_content": "RT @Fapital3: if you bought 1 ethereum a few days ago you would’ve made like 80 bucks a lot of opportunities in this market",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T07:41:27.073544",
+    "parsed_time": "2025-04-13T07:35:39.637958",
     "is_recent": true
   },
   {
@@ -406,11 +420,11 @@
     "asset_involved": "BTC",
     "sentiment_reason": "The retweet of Andrew Kang's statement indicates a belief that current market conditions, specifically the trade war and the 'Trump Put', will lead to a reversal of the downtrend in Bitcoin, suggesting a bullish outlook.",
     "sentiment_explanation": "Awawat is sharing Andrew Kang's perspective that the ongoing trade war and political support are factors that could help Bitcoin recover from a prolonged decline.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 18 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 04-12",
     "current_tweet_content": "RT @Rewkang: Trade war causing capitulation and Trump Put coming in are the perfect combination for $BTC to reverse a multi month downtrend…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:41:27.073544",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -427,15 +441,16 @@
     "is_recent": true
   },
   {
-    "trader_name": "Awawat",
+    "trader_name": "PC ²",
     "sentiment": "positive",
-    "sentiment_reason": "The trader expresses a positive sentiment by acknowledging a change in market behavior where coins are not experiencing expected losses over the weekend. The phrase 'new paradigm' suggests optimism about a potential shift in market dynamics.",
-    "sentiment_explanation": "The trader is observing that during the weekend, cryptocurrency prices are not plunging as they typically would, implying a favorable change in trend. They seem to be indicating a potential improvement in market stability.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 04-12",
-    "current_tweet_content": "weekend and coins aren’t instantly down -10%? new paradigm",
+    "asset_involved": "BTC",
+    "sentiment_reason": "The retweeted content discusses a market shift from aggression to capitulation, indicating a bullish turn as protective bear plays were dumped and call options were lifted amid a BTC surge. This context suggests a favorable outlook on BTC performance.",
+    "sentiment_explanation": "The trader is sharing insights on the market's recent movements, indicating that BTC has experienced a significant positive shift, moving from lower prices to a surge, and this suggests increasing confidence in the asset's future performance.",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 3 hours ago",
+    "current_tweet_content": "RT @DeribitInsights: 1) Trump's bond-market-crisis fueled tariff-walkback flipped the vocal narrative from aggression to capitulation, and…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "unknown",
+    "parsed_time": "2025-04-13T19:35:45.752938",
     "is_recent": true
   },
   {
@@ -444,11 +459,11 @@
     "asset_involved": "Blocktower, Bitfinex, Binance",
     "sentiment_reason": "The mention of Blocktower in a context suggesting something negative ('did Blocktower blow up or something?') implies a concern or criticism about recent developments related to the asset. The phrase 'never go full Bitfinex’ed' suggests a previous negative sentiment associated with Bitfinex, indicating distrust. The trader’s wording implies caution and unease regarding the situation in the crypto market.",
     "sentiment_explanation": "The trader is questioning whether there has been a significant negative event related to Blocktower, reflecting concern about the asset's status. Additionally, they reference a negative sentiment towards Bitfinex, hinting at broader issues in the crypto market.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 7 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 13 hours ago",
     "current_tweet_content": "did Blocktower blow up or something? never go full Bitfinex’ed https://x.com/aridavidpaul/status/1911023718454669700",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T09:41:33.177073",
+    "parsed_time": "2025-04-13T09:35:45.752938",
     "is_recent": true
   },
   {
@@ -457,11 +472,11 @@
     "asset_involved": "Ethereum",
     "sentiment_reason": "The trader is sharing a retweet that highlights a profit opportunity from a recent purchase of Ethereum, which suggests a positive sentiment towards the asset and the market. The mention of 'a lot of opportunities' indicates optimism about further prospects.",
     "sentiment_explanation": "The trader is emphasizing that buying Ethereum recently would have resulted in a profit, indicating that they see Ethereum as a valuable asset with ongoing trading opportunities.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 9 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 15 hours ago",
     "current_tweet_content": "RT @Fapital3: if you bought 1 ethereum a few days ago you would’ve made like 80 bucks a lot of opportunities in this market",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T07:41:33.177073",
+    "parsed_time": "2025-04-13T07:35:45.752938",
     "is_recent": true
   },
   {
@@ -470,11 +485,11 @@
     "asset_involved": "BTC",
     "sentiment_reason": "The retweet of Andrew Kang's statement indicates a belief that current market conditions, specifically the trade war and the 'Trump Put', will lead to a reversal of the downtrend in Bitcoin, suggesting a bullish outlook.",
     "sentiment_explanation": "Awawat is sharing Andrew Kang's perspective that the ongoing trade war and political support are factors that could help Bitcoin recover from a prolonged decline.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 18 hours ago",
+    "tweet_username": "Awawat (@Awawat_Trades) Posted on 04-12",
     "current_tweet_content": "RT @Rewkang: Trade war causing capitulation and Trump Put coming in are the perfect combination for $BTC to reverse a multi month downtrend…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:41:33.177073",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -491,36 +506,12 @@
     "is_recent": true
   },
   {
-    "trader_name": "PC ²",
-    "sentiment": "positive",
-    "sentiment_reason": "The trader expresses a positive sentiment by acknowledging a change in market behavior where coins are not experiencing expected losses over the weekend. The phrase 'new paradigm' suggests optimism about a potential shift in market dynamics.",
-    "sentiment_explanation": "The trader is observing that during the weekend, cryptocurrency prices are not plunging as they typically would, implying a favorable change in trend. They seem to be indicating a potential improvement in market stability.",
-    "tweet_username": "Awawat (@Awawat_Trades) Posted on 04-12",
-    "current_tweet_content": "weekend and coins aren’t instantly down -10%? new paradigm",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "unknown",
-    "is_recent": true
-  },
-  {
     "trader_name": "Cred",
     "sentiment": "neutral",
-    "sentiment_reason": "The trader expresses a lack of strong opinion about the market, describing it as 'meh', which indicates indifference rather than a clear bullish or bearish sentiment. The mention of waiting for the next monthly close also suggests a cautious approach.",
-    "sentiment_explanation": "The trader, Cred, is observing the current market conditions after the monthly close and feels that the market is not particularly exciting. They are opting to wait for further developments before making any trading decisions.",
-    "tweet_username": "Cred (@CryptoCred) Posted on 03-31",
-    "current_tweet_content": "Monthly close today \n\nMarkets look a bit meh \n\nGonna wait until the next monthly close\n\n#scalping #daytrading #orderflow",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "unknown",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Cred",
-    "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not express a specific opinion about any cryptocurrency or trade. Instead, it provides generic trading advice. There is no bullish or bearish sentiment toward any asset, and it appears to focus on trading methodology rather than a market perspective.",
-    "sentiment_explanation": "The trader is offering advice to simplify trading and suggests focusing on engaging when market participants act irrationally at significant price levels. The message encourages short to medium-term trading while advising to trade less, emphasizing a strategic approach over specific assets.",
-    "tweet_username": "Cred (@CryptoCred) Posted on 04-04",
-    "current_tweet_content": "You probably don’t have a tariff/macro edge \n\nSimplify your trading \n\nTrade when people do stupid shit at obvious levels\n\nKeep it short to medium-term\n\nTrade less",
+    "sentiment_reason": "The tweet reflects observational commentary on the market without expressing a clear positive or negative sentiment towards specific cryptocurrencies. It discusses broader economic factors such as treasury auctions and credit spreads, which are indicative of risk sentiment in the market.",
+    "sentiment_explanation": "The trader is sharing a general analysis of the crypto market's current environment, noting elements such as risk sentiment and credit spreads, but does not specifically endorse any assets or indicate a bullish or bearish stance.",
+    "tweet_username": "Cred (@CryptoCred) Posted on 04-11",
+    "current_tweet_content": "Q1 Crypto: The dog has a hat, hot air rises, vape cabal caught another daily runner\n\nQ2 Crypto: Watching this treasury auction to get a read on risk sentiment, the basis trade is blowing up and I’m growing concerned about credit spreads",
     "picture_included": false,
     "picture_urls": [],
     "parsed_time": "unknown",
@@ -542,10 +533,22 @@
   {
     "trader_name": "Cred",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet reflects observational commentary on the market without expressing a clear positive or negative sentiment towards specific cryptocurrencies. It discusses broader economic factors such as treasury auctions and credit spreads, which are indicative of risk sentiment in the market.",
-    "sentiment_explanation": "The trader is sharing a general analysis of the crypto market's current environment, noting elements such as risk sentiment and credit spreads, but does not specifically endorse any assets or indicate a bullish or bearish stance.",
-    "tweet_username": "Cred (@CryptoCred) Posted on 04-11",
-    "current_tweet_content": "Q1 Crypto: The dog has a hat, hot air rises, vape cabal caught another daily runner\n\nQ2 Crypto: Watching this treasury auction to get a read on risk sentiment, the basis trade is blowing up and I’m growing concerned about credit spreads",
+    "sentiment_reason": "The tweet does not express a specific opinion about any cryptocurrency or trade. Instead, it provides generic trading advice. There is no bullish or bearish sentiment toward any asset, and it appears to focus on trading methodology rather than a market perspective.",
+    "sentiment_explanation": "The trader is offering advice to simplify trading and suggests focusing on engaging when market participants act irrationally at significant price levels. The message encourages short to medium-term trading while advising to trade less, emphasizing a strategic approach over specific assets.",
+    "tweet_username": "Cred (@CryptoCred) Posted on 04-04",
+    "current_tweet_content": "You probably don’t have a tariff/macro edge \n\nSimplify your trading \n\nTrade when people do stupid shit at obvious levels\n\nKeep it short to medium-term\n\nTrade less",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "unknown",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Cred",
+    "sentiment": "neutral",
+    "sentiment_reason": "The trader expresses a lack of strong opinion about the market, describing it as 'meh', which indicates indifference rather than a clear bullish or bearish sentiment. The mention of waiting for the next monthly close also suggests a cautious approach.",
+    "sentiment_explanation": "The trader, Cred, is observing the current market conditions after the monthly close and feels that the market is not particularly exciting. They are opting to wait for further developments before making any trading decisions.",
+    "tweet_username": "Cred (@CryptoCred) Posted on 03-31",
+    "current_tweet_content": "Monthly close today \n\nMarkets look a bit meh \n\nGonna wait until the next monthly close\n\n#scalping #daytrading #orderflow",
     "picture_included": false,
     "picture_urls": [],
     "parsed_time": "unknown",
@@ -694,14 +697,43 @@
   },
   {
     "trader_name": "DonAlt",
+    "sentiment": "positive",
+    "asset_involved": "BTC",
+    "sentiment_reason": "The trader mentions that the monthly trend for Bitcoin ($BTC) is starting to round out positively, indicating optimism about potential upward movement. The reference to 'cancelled tariffs' suggests a favorable market environment that could boost Bitcoin's price.",
+    "sentiment_explanation": "The trader is optimistic about Bitcoin's monthly performance, suggesting that with some positive changes in the market (like cancelled tariffs), the price could trend upwards.",
+    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 4 hours ago",
+    "current_tweet_content": "$BTC\n\nMonthly starting to round out\nFew more cancelled tariffs and up only",
+    "picture_included": true,
+    "picture_urls": [
+      "https://pbs.twimg.com/media/GoaAg5TXoAAxVho.png"
+    ],
+    "parsed_time": "2025-04-13T18:36:10.274505",
+    "is_recent": true
+  },
+  {
+    "trader_name": "DonAlt",
+    "sentiment": "neutral",
+    "sentiment_reason": "The trader expresses a critical view of America based on a chart showing a decline in European visitors to the US. However, there is no specific bullish or bearish sentiment towards any asset or market. The language used is derogatory but does not indicate strong emotions regarding trading or investments.",
+    "sentiment_explanation": "The trader is pointing out a worrying trend regarding tourism to the US from Europe and criticizing the country's current appeal. They are mainly commenting on socio-political issues rather than market conditions.",
+    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 5 hours ago",
+    "current_tweet_content": "This is a wild chart\nNever has America looked more retarded and less attractive to non Americans than now",
+    "picture_included": true,
+    "picture_urls": [
+      "https://pbs.twimg.com/media/GoZ5Xn8XYAEA-g0.jpg"
+    ],
+    "parsed_time": "2025-04-13T17:36:10.274505",
+    "is_recent": true
+  },
+  {
+    "trader_name": "DonAlt",
     "sentiment": "neutral",
     "sentiment_reason": "The trader expresses confusion over the behavior of people in the crypto community regarding their obsession with others' trading positions. There is no clear indication of a positive or negative sentiment towards any specific asset or the market as a whole. Instead, it reflects a broader commentary on individual autonomy in trading.",
     "sentiment_explanation": "The trader is questioning the need for people to be concerned about others' investment choices, emphasizing that individuals should have the freedom to manage their own money without external judgment.",
-    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 18 hours ago",
+    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 04-12",
     "current_tweet_content": "I will never understand the obsession people have on here with other peoples positions\n\nSeen so many posts like \"If you still do X, do this\"\n\nBro what's the point? Who cares what other people hold just let them do whatever they wanna\nIt's their money not yours",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:41:57.652150",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -725,30 +757,6 @@
     "sentiment_explanation": "The trader is commenting on the potential for a downturn in the U.S. and reflects on the country's role in maintaining global order, while expressing hope for a recovery. This is more of a general observation and does not convey a direct investment sentiment.",
     "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 04-11",
     "current_tweet_content": "To be entirely fair\n\nAmerica does kind of deserve a crashout like this\nBeen a great innovator and for better or worse has maintained a somewhat decent world order all things considered\n\nJust hope y'all come back to your senses soon\n\nMuch love\nA concerned Europoorean",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "unknown",
-    "is_recent": true
-  },
-  {
-    "trader_name": "DonAlt",
-    "sentiment": "neutral",
-    "sentiment_reason": "The tweet expresses skepticism towards political developments affecting markets but does not explicitly comment on cryptocurrency or financial assets. The sentiment mainly reflects a reaction to a political event, which is considered unrelated to market behavior.",
-    "sentiment_explanation": "The trader is commenting on a news piece about EU and China negotiations regarding tariffs on electric vehicles, implying frustration and disbelief. However, there is no direct reference to any cryptocurrencies or trading activity.",
-    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 04-11",
-    "current_tweet_content": "Thank you Trump\n\nThis is so dumb but was so predictable\n4D chess my ass https://x.com/DeItaone/status/1910372484177920482",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "unknown",
-    "is_recent": true
-  },
-  {
-    "trader_name": "DonAlt",
-    "sentiment": "positive",
-    "sentiment_reason": "The trader expresses confidence in the potential for crypto upside under the current administration, indicating a bullish sentiment towards the crypto market despite uncertainties in traditional markets. The mention of Trump and trade tariffs suggests underlying market anxieties but doesn't negatively affect the outlook on crypto.",
-    "sentiment_explanation": "The trader believes that while traditional markets might struggle due to political factors, cryptocurrencies are in a favorable position for growth. This viewpoint suggests optimism about the crypto market despite the challenging trading environment.",
-    "tweet_username": "DonAlt (@CryptoDonAlt) Posted on 04-10",
-    "current_tweet_content": "Kinda feel like it's very unlikely any trad market rally is permanent until Trump has been humbled out of his over the top tariff shtick\nWhich is unlikely to happen anytime soon\n\nBut I also feel like crypto is uniquely positioned for upside in the current admin\n\nHard to trade",
     "picture_included": false,
     "picture_urls": [],
     "parsed_time": "unknown",
@@ -829,11 +837,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet lacks context and does not provide specific information regarding assets or market sentiment. 'Allocate April' is vague and does not convey a clear positive or negative stance.",
     "sentiment_explanation": "The trader is simply suggesting or stating the need to allocate resources or attention for the month of April, without specifying any assets or presenting a clear sentiment.",
-    "tweet_username": "Chiefingza (@chiefingza) Posted on 21 hours ago",
+    "tweet_username": "Chiefingza (@chiefingza) Posted on 04-12",
     "current_tweet_content": "allocate april",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T19:42:09.909582",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -842,11 +850,11 @@
     "asset_involved": "Bittensor, TAO",
     "sentiment_reason": "The trader agrees with the sentiment expressed in the retweet about Bittensor subnets being underlooked due to their complexity. The mention of a need for TAO stakers to shift to subnet staking indicates optimism about future developments and engagement within the Bittensor ecosystem.",
     "sentiment_explanation": "The trader is highlighting an opportunity in the Bittensor project, specifically regarding its subnets, which they believe are undervalued. They also point out the potential need for current TAO stakers to transition to subnet staking, suggesting that there is a promising future for the asset.",
-    "tweet_username": "Chiefingza (@chiefingza) Posted on 21 hours ago",
+    "tweet_username": "Chiefingza (@chiefingza) Posted on 04-12",
     "current_tweet_content": "RT @0xPrismatic: I agree: Bittensor subnets right now still underlooked at because of the complexity involved. Very few outside the core ec…",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T19:42:09.909582",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -892,11 +900,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet suggests a wait-and-see approach regarding the market movement without expressing a strong bullish or bearish sentiment. 'Mean reversion' implies an expectation of a return to an average price, indicating uncertainty about future price movements.",
     "sentiment_explanation": "The trader is indicating that they believe the market may return to an average or historical level after bouncing back the previous day, but they do not take a definitive stance either way.",
-    "tweet_username": "Pika (@pikachu_crypto) Posted on 56 minutes ago",
+    "tweet_username": "Pika (@pikachu_crypto) Posted on 6 hours ago",
     "current_tweet_content": "Time for mean reversion from yesterday’s bounce i guess",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T15:46:16.026522",
+    "parsed_time": "2025-04-13T16:36:28.670220",
     "is_recent": true
   },
   {
@@ -955,13 +963,13 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet expresses a dismissive attitude towards hecklers and suggests that the trader is focused on productive activities rather than engaging in negative discussions. However, it does not convey a clear positive or negative sentiment about the market or any specific assets.",
     "sentiment_explanation": "The trader is highlighting a situation where they are ignoring negative comments and emphasizing their commitment to productive engagement in trading or investing. The inclusion of the image serves to reinforce their point about the contrast between intelligence and wealth.",
-    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 3 hours ago",
+    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 9 hours ago",
     "current_tweet_content": "Now that the hecklers are max coping in the replies, it’s is a good time to share a classic image from @DegenSpartan \n\nMy instant response to heckling is a block. \n\nThere are tickers to bid and ideas to spread. \n\nNo time to waste.",
     "picture_included": true,
     "picture_urls": [
       "https://pbs.twimg.com/media/GoY8UK1WkAA9bGh.jpg"
     ],
-    "parsed_time": "2025-04-13T13:42:22.159331",
+    "parsed_time": "2025-04-13T13:36:34.789908",
     "is_recent": true
   },
   {
@@ -970,11 +978,11 @@
     "asset_involved": "BTC",
     "sentiment_reason": "The trader makes a positive observation about trade trends and mentions a specific platform (Hyperliquid) that implies confidence in the ongoing market mechanics. The reference to the trade screenshots suggests a bullish outlook.",
     "sentiment_explanation": "The trader is highlighting a positive trend in the market suggested by other traders' screenshots, while specifically mentioning BTC and indicating that all signs point toward further movement on the Hyperliquid platform.",
-    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 5 hours ago",
+    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 11 hours ago",
     "current_tweet_content": "Just observing the trade screenshots shared on the timeline shows you where the trend is headed towards.\n\n24/7 markets. On chain.\n\nAll roads lead to\n\nHyperliquid. https://x.com/nikitabier/status/1911126289630863407",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T11:42:22.159331",
+    "parsed_time": "2025-04-13T11:36:34.789908",
     "is_recent": true
   },
   {
@@ -983,13 +991,13 @@
     "asset_involved": "BTC",
     "sentiment_reason": "The retweet reflects a commentary on market behavior regarding tariff news and the timing of long positions, without expressing a personal bullish or bearish stance. The reference to BTC with a leveraged position suggests readiness for trading but does not clarify sentiment.",
     "sentiment_explanation": "The trader is sharing a statement about going long on tariff news only when markets are closed, implying a strategic perspective without taking a clear position on that action. The mention of BTC in their account suggests they might be involved in trading, but their retweet does not indicate a definitive sentiment.",
-    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 6 hours ago",
+    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 12 hours ago",
     "current_tweet_content": "RT @nikitabier: Only way to go long on the tariff news if markets are closed.",
     "picture_included": true,
     "picture_urls": [
       "https://pbs.twimg.com/media/GoWvO1MWAAAboyb.jpg"
     ],
-    "parsed_time": "2025-04-13T10:42:22.159331",
+    "parsed_time": "2025-04-13T10:36:34.789908",
     "is_recent": true
   },
   {
@@ -998,14 +1006,14 @@
     "asset_involved": "HYPE",
     "sentiment_reason": "The trader expresses enthusiasm about the performance of Hyperliquid and its asset $HYPE, highlighting metrics like market share, growth in key performance indicators, and a humorous remark about its holder count. The overall tone is optimistic about the ongoing developments.",
     "sentiment_explanation": "The trader is noting that $HYPE is showing strong performance with increasing market share and growth metrics, indicating a bullish outlook on its potential. They suggest that despite having a small holder base, the asset is making significant strides in the market.",
-    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 6 hours ago",
+    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 12 hours ago",
     "current_tweet_content": "Some stats as $HYPE continues firing on all cylinders.\n\nHyperliquid Core vs CEX market share % climbing back to ATH\n\nHyperliquid EVM currently the fastest growing EVM with TVL ATH\n\nAll while it remains a “consensus perp dex trade” with only 100k holders 😂 https://x.com/smartestmoney_/status/1910620571366572055",
     "picture_included": true,
     "picture_urls": [
       "https://pbs.twimg.com/media/GoYVCxcWIAAkDwH.jpg",
       "https://pbs.twimg.com/media/GoYVCxXXQAANXuS.jpg"
     ],
-    "parsed_time": "2025-04-13T10:42:22.159331",
+    "parsed_time": "2025-04-13T10:36:34.789908",
     "is_recent": true
   },
   {
@@ -1014,11 +1022,11 @@
     "asset_involved": "HYPE",
     "sentiment_reason": "The trader is addressing $HYPE holders and referring to them as 'grave dancers' in a context that suggests they are part of a loyal community, indicating enthusiasm about the asset. The quote from another trader expresses frustration about others missing out on $HYPE, which underscores a sense of bullish potential for the asset.",
     "sentiment_explanation": "The trader is checking in with followers who are invested in $HYPE, prompting a sense of community among them. The reference to 'grave dancers' implies that they are still engaged despite challenges, and the overall tone is optimistic as it hints at continued interest in $HYPE.",
-    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 6 hours ago",
+    "tweet_username": "smartestmoney.hl (@smartestmoney_) Posted on 12 hours ago",
     "current_tweet_content": "How are my little $HYPE grave dancers and sidelined copers doing today?\n\nHyperliquid. https://x.com/0xthade/status/1911152986341917151",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T10:42:22.159331",
+    "parsed_time": "2025-04-13T10:36:34.789908",
     "is_recent": true
   },
   {
@@ -1093,11 +1101,11 @@
     "asset_involved": "BTC",
     "sentiment_reason": "The trader indicates that the market sentiment is shifting positively towards BTC as funds decrease their short positions and uncertainty decreases regarding the macroeconomic environment. The belief that future market actions will be more stable is reinforcing a bullish outlook.",
     "sentiment_explanation": "The trader is expressing a positive outlook on Bitcoin (BTC) and suggests that market conditions are improving, making it a suitable time to consider buying dips. They believe that the recent political and economic dynamics could lead to a stronger bullish trend for BTC in the mid-to-long term.",
-    "tweet_username": "Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk) Posted on 17 hours ago",
+    "tweet_username": "Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk) Posted on 23 hours ago",
     "current_tweet_content": "Vibe shifting https://x.com/joshuadeuk/status/1910214143883505943",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T23:42:34.409557",
+    "parsed_time": "2025-04-12T23:36:47.046251",
     "is_recent": true
   },
   {
@@ -1153,71 +1161,68 @@
   {
     "trader_name": "川沐｜Trumoo🐮",
     "sentiment": "neutral",
-    "asset_involved": "ZEC",
-    "sentiment_reason": "The trader mentions activity on the ZEC network, indicating that the network is functioning properly since deposits can be made. However, the lack of withdrawal options raises questions. The sentiment reflects uncertainty rather than a clear positive or negative stance.",
-    "sentiment_explanation": "The trader is discussing the current state of the ZEC network, noting that while users can deposit funds, they cannot withdraw them. This situation leads to speculation about the reasons behind the withdrawal restrictions.",
-    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 1 hours ago",
-    "current_tweet_content": "能充值，说明zec网络正常，跟zec代币网络无关.\n不给提现是因为啥呢？我猜不出来啥好理由. https://x.com/xiaomucrypto/status/1911304609253232997",
+    "sentiment_reason": "The tweet content does not express any opinion about the market or specific assets; it is simply a casual statement.",
+    "sentiment_explanation": "The trader is making a casual remark without any context related to cryptocurrency or trading.",
+    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 2 hours ago",
+    "current_tweet_content": "等开饭. https://t.co/oG4JBcBC3e",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T15:42:40.543584",
+    "parsed_time": "2025-04-13T20:36:53.175233",
     "is_recent": true
   },
   {
     "trader_name": "川沐｜Trumoo🐮",
-    "sentiment": "negative",
-    "asset_involved": "ZEC",
-    "sentiment_reason": "The trader expresses frustration about the inability to withdraw ZEC from Binance, indicating a loss of control and possible manipulative practices by the exchange, which leads to a negative sentiment towards both the asset and the exchange.",
-    "sentiment_explanation": "The trader is unhappy with Binance's handling of ZEC, specifically regarding the inability to withdraw the cryptocurrency, suggesting that it's causing financial loss. This reflects a bearish sentiment towards ZEC in light of these circumstances.",
-    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 2 hours ago",
-    "current_tweet_content": "只能充值不能提现. https://x.com/i/web/status/1911304609253232997",
+    "sentiment": "positive",
+    "asset_involved": "Bitcoin",
+    "sentiment_reason": "The trader expresses a liking or affection for Bitcoin, which indicates a positive sentiment towards the asset.",
+    "sentiment_explanation": "The tweet conveys a playful message that if someone likes Bitcoin, then the trader also has a favorable view towards that person, reinforcing a positive sentiment towards Bitcoin.",
+    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 4 hours ago",
+    "current_tweet_content": "如果施主也喜欢比特币，那么我也喜欢你.",
     "picture_included": true,
     "picture_urls": [
-      "https://pbs.twimg.com/media/GoZRXN-XkAA7XOe.jpg"
+      "https://pbs.twimg.com/media/GoaADsWXIAIJiD1.jpg"
     ],
-    "parsed_time": "2025-04-13T14:42:40.543584",
+    "parsed_time": "2025-04-13T18:36:53.175233",
     "is_recent": true
   },
   {
     "trader_name": "川沐｜Trumoo🐮",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not express a clear bullish or bearish sentiment towards any specific assets or the market itself. Instead, it focuses on trading philosophy without mentioning cryptocurrencies or financial instruments.",
-    "sentiment_explanation": "The trader, Joshua, is retweeting a message that emphasizes the importance of making high-quality trading decisions rather than trying to be right all the time. This suggests a focus on long-term strategies rather than immediate market movements.",
-    "tweet_username": "Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk) Posted on 04-09",
-    "current_tweet_content": "RT @Trader_XO: GM\n\nA good trader isn't trying to be right every time. \n\nThey’re trying to make high quality decisions repeatedly. \n\nOver ti…",
+    "asset_involved": "ZEC",
+    "sentiment_reason": "The tweet contains an update from Binance regarding the expected restoration of withdrawal functionality for ZEC, but does not express a personal opinion or sentiment about ZEC's market performance or outlook. The mention of technical issues and a recovery timeline indicates a neutral stance.",
+    "sentiment_explanation": "The trader is relaying information about Binance's response to issues affecting ZEC withdrawals, stating that the service is expected to be restored by April 17. This provides factual information without expressing strong positive or negative sentiment.",
+    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 5 hours ago",
+    "current_tweet_content": "币安回复预计17号三天内恢复提币 https://x.com/xiaomucrypto/status/1911311640114483644",
+    "picture_included": true,
+    "picture_urls": [
+      "https://pbs.twimg.com/media/GoZ0I1mXMAA670F.jpg"
+    ],
+    "parsed_time": "2025-04-13T17:36:53.175233",
+    "is_recent": true
+  },
+  {
+    "trader_name": "川沐｜Trumoo🐮",
+    "sentiment": "neutral",
+    "sentiment_reason": "The tweet contains a derogatory remark without any specific reference to any cryptocurrency or market sentiment. It does not express a bullish or bearish attitude toward any assets.",
+    "sentiment_explanation": "The trader is making a provocative statement about guessing an airplane model, which does not relate to cryptocurrency or trading.",
+    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 5 hours ago",
+    "current_tweet_content": "If you can't guess the airplane model, you're retarded. https://t.co/OGlw4Ybb4d",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "unknown",
+    "parsed_time": "2025-04-13T17:36:53.175233",
     "is_recent": true
   },
   {
     "trader_name": "川沐｜Trumoo🐮",
-    "sentiment": "negative",
+    "sentiment": "neutral",
     "asset_involved": "ZEC",
-    "sentiment_reason": "The trader expresses frustration and disappointment regarding the trading conditions of ZEC on Binance, highlighting an unusual discrepancy between spot and futures prices, and suggesting that Binance's withdrawal restrictions are causing significant inconvenience and financial losses.",
-    "sentiment_explanation": "The trader is upset about the trading situation for ZEC on Binance, mentioning that futures prices are significantly higher than spot prices and that withdrawal restrictions are preventing traders from accessing their funds, implying a lack of trust in the platform.",
-    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 2 hours ago",
-    "current_tweet_content": "https://x.com/xiaomucrypto/status/1911304228175548702",
-    "picture_included": true,
-    "picture_urls": [
-      "https://pbs.twimg.com/media/GoZRXN-XkAA7XOe.jpg"
-    ],
-    "parsed_time": "2025-04-13T14:42:40.543584",
-    "is_recent": true
-  },
-  {
-    "trader_name": "川沐｜Trumoo🐮",
-    "sentiment": "negative",
-    "asset_involved": "ZEC",
-    "sentiment_reason": "The trader expresses frustration about Binance's handling of ZEC, particularly regarding the significant discrepancy between spot and futures prices. The mention of difficulties in withdrawing ZEC and implied losses further supports a negative sentiment.",
-    "sentiment_explanation": "The trader is unhappy with Binance's policies on ZEC, indicating that they cannot withdraw their coins and are suffering financial losses due to high fees and unfavorable market conditions. They feel compelled to exit their position due to these issues, questioning Binance's intentions.",
-    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 2 hours ago",
-    "current_tweet_content": "币安zec的现货和合约好诡异.\n合约价格比现货搞十几个点.\n朋友说币安不让zec提币流通，你套保都没法套，下架了只能卖，不让你提走，白白承受费率损失.\n我投降走了，但是币安不给开zec提现是否存在故意主观作恶.@heyibinance @sisibinance @binance",
-    "picture_included": true,
-    "picture_urls": [
-      "https://pbs.twimg.com/media/GoZRD9NWMAAsMq1.jpg"
-    ],
-    "parsed_time": "2025-04-13T14:42:40.543584",
+    "sentiment_reason": "The trader mentions activity on the ZEC network, indicating that the network is functioning properly since deposits can be made. However, the lack of withdrawal options raises questions. The sentiment reflects uncertainty rather than a clear positive or negative stance.",
+    "sentiment_explanation": "The trader is discussing the current state of the ZEC network, noting that while users can deposit funds, they cannot withdraw them. This situation leads to speculation about the reasons behind the withdrawal restrictions.",
+    "tweet_username": "川沐｜Trumoo🐮 (@xiaomucrypto) Posted on 7 hours ago",
+    "current_tweet_content": "能充值，说明zec网络正常，跟zec代币网络无关.\n不给提现是因为啥呢？我猜不出来啥好理由. https://x.com/xiaomucrypto/status/1911304609253232997",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T15:36:53.175233",
     "is_recent": true
   },
   {
@@ -1357,11 +1362,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet discusses social media behavior and the consequences of certain practices like mutual following without genuine engagement. It does not specifically comment on any cryptocurrencies or market sentiments.",
     "sentiment_explanation": "The trader is expressing frustration with the practice of following accounts just for the sake of follower counts, arguing that it leads to an ineffective information flow and does not contribute to meaningful engagement. They emphasize the importance of maintaining a streamlined and efficient social media presence.",
-    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 12 hours ago",
+    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 18 hours ago",
     "current_tweet_content": "帮我解释了我为什么今天觉得很傻逼。我觉得高效的信息流是很重要的，所以我的关注都是很精简的，那些🐔全都屏蔽了，我可以在抖音看🐔，在夜场看🐔，但是真不想在饭碗里看🐔。我关注一个人的高效途径就看到有多少共同关注，如果某个人几万粉，点进去一看，不到10个共同关注，直接屏蔽了，绝对不用多看5秒钟。一定是刷粉的。",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T04:42:58.908100",
+    "parsed_time": "2025-04-13T04:37:11.568046",
     "is_recent": true
   },
   {
@@ -1369,11 +1374,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet does not mention any specific cryptocurrencies or provide any discernible market sentiment. It appears to express frustration or a dismissive sentiment, but lacks context related to trading or assets.",
     "sentiment_explanation": "The trader seems to be expressing annoyance or frustration, but the message does not relate to any specific crypto assets or market conditions.",
-    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 22 hours ago",
+    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 04-12",
     "current_tweet_content": "蓝v互关你妈呢。",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T18:42:58.908100",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -1381,11 +1386,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet does not express a clear positive or negative sentiment towards any specific cryptocurrency or the market; rather, it comments on Twitter interactions, possibly referring to a strategy among certain users.",
     "sentiment_explanation": "The trader is commenting on the behavior of users with verified accounts (蓝v) and seems to be suggesting that their interactions are merely for promotional purposes, but does not directly discuss any crypto asset.",
-    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 23 hours ago",
+    "tweet_username": "憨巴龙王 (@dotyyds1234) Posted on 04-12",
     "current_tweet_content": "看到蓝v互关的全屏蔽了，这不就是等着发广告了。",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T17:42:58.908100",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -1415,16 +1420,29 @@
   {
     "trader_name": "带带带比特",
     "sentiment": "negative",
+    "asset_involved": "Babylon",
+    "sentiment_reason": "The trader expresses frustration with the current state of the crypto market, indicating that the community is fed up with pretentiousness and elitism among project leaders. The mention of Babylon's valuation dropping from 100 billion to 10 billion highlights a bearish sentiment towards overhyped projects. There is also an overall sense of disappointment with the past experiences in the crypto space.",
+    "sentiment_explanation": "The trader is criticizing the current environment in the crypto market, suggesting that there are too many individuals who take on an air of superiority without merit. They point out that well-known projects like Babylon have lost significant value, urging others to be aware of such pretentiousness and to remain grounded rather than considering themselves above other investors.",
+    "tweet_username": "带带带比特 (@daidaibtc) Posted on 3 hours ago",
+    "current_tweet_content": "币圈都被操了十几年了，再怎么样都是活着的人精越来越多，韭菜越来越少。以前顶多几个Title搞个精英人设就能进来开项目割，后来是名人割。都会怯魅厌恶的好吧。强如世一所老板何一都得天天来推当客服接地气。所以，如果现在还有敢带着优越感在币圈混的项目，醒醒哥们，币圈不需要你们知道不。你来赚钱的还是来改变世界的你自己心里有数好吧。Babylon估值100亿砸到10亿了哥们，你投资比babylon强还是TVL比Babylon大。所以，真的别装B，看到喜欢装B的，觉得自己脱离韭菜的，高大上的项目，通通拉黑。2025了，还在天天凹那些逼学历人设找优越感了，谁Cue啊，想把自己卖个好价钱，就踏踏实实的好好说话行吗😇😇😇",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T19:37:17.678238",
+    "is_recent": true
+  },
+  {
+    "trader_name": "带带带比特",
+    "sentiment": "negative",
     "asset_involved": "F3B, TUT, Broccoli",
     "sentiment_reason": "The trader expresses concerns about the manipulation and volatility in the small-cap asset space like F3B. They point out the risks of being trapped as a retail investor and the potential for a 'squeeze' against those who are shorting the asset. The mention of market depth and liquidity indicates skepticism about sustained upward movement.",
     "sentiment_explanation": "The trader analyzes the dynamics of small-market assets, emphasizing the importance of institutional involvement ('庄') and the risks posed to retail investors. They speculate on possible market movements and strategies, hinting at the challenges facing market participants without strong support. Overall, there’s cautious skepticism about the ability of small-cap assets to gather genuine momentum without significant backing.",
-    "tweet_username": "带带带比特 (@daidaibtc) Posted on 11 hours ago",
+    "tweet_username": "带带带比特 (@daidaibtc) Posted on 17 hours ago",
     "current_tweet_content": "再写一点思考...因为F3B最终成长成了参天的西兰花...所以说啊 小市值必须要有庄 否则就是散户陷阱 \n最可惜的是 当时真的是有能力和几个朋友一起接这个6M的盘子的 没接 硬送给老外了 这些人也挺厉害的 既在底部控住了大量现货 同时也在期货开多了不少持仓 这些持仓就没动过\n昨天开始庄疯狂的拉盘寻求市场注意力和热度（流动性）来找退出了（别看拉了这么多，现在期货盘口深度还是很一般）\n同时代入思考了一下自己  如果我是这人 除了怕没人进来玩 其他都不怕 流动性都进来做空，我就硬不动，硬拉到散户疯狂做空（已经开始转负了），币安现在8H，费率极端就会调整4H，我就拿收到的钱继续买，继续拉。把空头炸出天针再退出。因为会有很多人锚定714西兰花现货只有20多M来做空。而如果流动性进来做多，我就自己平自己的多头仓位，流动性足够就再做空期货，砸现货，把散户砸成傻逼再买回来。（我就是这么坏）\n盲猜如果插天针那几分钟涨幅能有50%＋ ？（但我不太清楚的是，没一个交易所有现货，他指数价格只能锚定链上的话就很难做到，现在期货出现负费率，但链上价格并没有像所内现货一样会出现溢价）\n还有挺多细节还没完全思考明白，会继续围观参与F3B的全程，再去复盘，为将来坐庄折磨你们打基础。",
     "picture_included": true,
     "picture_urls": [
       "https://pbs.twimg.com/media/GoXR0luXEAAjiwO.jpg"
     ],
-    "parsed_time": "2025-04-13T05:43:05.025670",
+    "parsed_time": "2025-04-13T05:37:17.678238",
     "is_recent": true
   },
   {
@@ -1432,11 +1450,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The trader expresses a desire to join a group of traders who publicly call out signals but does not indicate a specific stance on any asset or market direction. The use of 'really good at finding angles' suggests a level of confidence, but it lacks market-specific sentiment.",
     "sentiment_explanation": "The trader is expressing a wish to participate in a signaling group for trading but does not make any specific assertions about the market or cryptocurrencies.",
-    "tweet_username": "带带带比特 (@daidaibtc) Posted on 16 hours ago",
+    "tweet_username": "带带带比特 (@daidaibtc) Posted on 22 hours ago",
     "current_tweet_content": "好想加入喊单阵营啊，我只是不公开喊，但我真的很会找角度😭",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-13T00:43:05.025670",
+    "parsed_time": "2025-04-13T00:37:17.678238",
     "is_recent": true
   },
   {
@@ -1444,11 +1462,11 @@
     "sentiment": "neutral",
     "sentiment_reason": "The tweet discusses contract rates that are currently positive, suggesting an observation about market conditions without expressing a clear bullish or bearish opinion. The mention of 'lost youth' returning could imply a sense of nostalgia or hope, but it is not definitive.",
     "sentiment_explanation": "The trader is commenting on the current state of contract rates for new coins, noting that they are surprisingly positive. There is a hint of nostalgia or curiosity about whether this marks a positive change in the market, but there is no outright bullish or bearish sentiment expressed.",
-    "tweet_username": "带带带比特 (@daidaibtc) Posted on 17 hours ago",
+    "tweet_username": "带带带比特 (@daidaibtc) Posted on 23 hours ago",
     "current_tweet_content": "合约新币费率竟然都是正的...0.几%...失去的青春又回来了吗......好强的风向标。。",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T23:43:05.025670",
+    "parsed_time": "2025-04-12T23:37:17.678238",
     "is_recent": true
   },
   {
@@ -1456,26 +1474,10 @@
     "sentiment": "neutral",
     "sentiment_reason": "The trader expresses a general opinion about the crypto market without indicating a specific sentiment towards any assets. The comment critiques the current state of interactions in the crypto community, equating it to previous marketing tactics, which does not reflect clear bullish or bearish sentiment.",
     "sentiment_explanation": "The trader is questioning the authenticity of connections in the crypto space, suggesting that some trends may be irrational or superficial, similar to past marketing behaviors. This reflects a critical view of the market dynamics rather than a clear stance on specific assets.",
-    "tweet_username": "带带带比特 (@daidaibtc) Posted on 22 hours ago",
+    "tweet_username": "带带带比特 (@daidaibtc) Posted on 04-12",
     "current_tweet_content": "关注不是留给自己认可的 有水平的人的吗。开个蓝V就能互关了，那和以前朋友圈互推的微商有啥区别。。。有时候，币圈一些东西真的火的莫名其妙啊。",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T18:43:05.025670",
-    "is_recent": true
-  },
-  {
-    "trader_name": "带带带比特",
-    "sentiment": "positive",
-    "asset_involved": "ORCA, BYBIT, BINANCE",
-    "sentiment_reason": "The trader discusses an arbitrage opportunity that arose due to extreme fee rates on ORCA and highlights the potential for profit by engaging in trades on BYBIT and BINANCE. The language indicates a clear expectation of profit from these actions, suggesting a bullish sentiment.",
-    "sentiment_explanation": "The trader is sharing insights on how to leverage small capital for arbitrage opportunities, specifically mentioning ORCA. They note recent changes in fee structures that create significant profit potential by trading between different exchanges. The trader emphasizes the importance of acting quickly and consistently monitoring the market to capitalize on these opportunities.",
-    "tweet_username": "带带带比特 (@daidaibtc) Posted on 04-12",
-    "current_tweet_content": "关于小资金如何套利的思路。举个例子吧 ORCA。昨天费率开始极端之后，你就应该去观察还有哪个交易所有它。费率和溢价情况如何。可以看到BYBIT上个月的公告是2H/一次的。那么这里就有明显的套利机会，顶格费率，必然是去bybit做多边/币安做空边。那天SPACE我说做这些事情，你每天是要花一些时间在上面的，多观察，进的一定要早，这里因为有明显的套利机会，溢价必然会进一步扩大。你后面看别人赚钱FOMO进去就有不确定性了。这个时候今天，币安也改了结算时间，就可以秒平。因为溢价一定会回归。又或者 直接币安做空边，bybit做多边去赚这3%的价差。多做正EV和延迟满足的事情。",
-    "picture_included": true,
-    "picture_urls": [
-      "https://pbs.twimg.com/media/GoUFIxaWkAAtzri.png",
-      "https://pbs.twimg.com/media/GoUFSnaX0AAsg9d.png"
-    ],
     "parsed_time": "unknown",
     "is_recent": true
   },
@@ -1545,65 +1547,65 @@
   },
   {
     "trader_name": "Game",
+    "sentiment": "negative",
+    "sentiment_reason": "The trader refers to Lutnick and Navarro as 'killjoys of every Risk-On attempt,' which indicates a strong negative sentiment towards their influence on the market, especially in relation to risk appetite. The mention of upcoming tariffs suggests potential negative implications for the market.",
+    "sentiment_explanation": "The trader is expressing frustration with Lutnick and Navarro, implying that their actions or statements are hindering positive market movements and risk-taking.",
+    "tweet_username": "Game (@game_for_one) Posted on 37 minutes ago",
+    "current_tweet_content": "Lutnick and Navarro - the killjoys of every Risk-On attempt.\n\nWorking overtime on weekends too. https://x.com/DeItaone/status/1911407490245230643",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T22:00:29.906610",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Game",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet mentions NFTs being 'shilled' but does not express a clear positive or negative sentiment. The word 'close' implies anticipation, but without context, it is uncertain whether this is viewed positively or negatively.",
-    "sentiment_explanation": "The trader is noting that there is an increasing promotion of NFTs, suggesting a sense of anticipation about upcoming developments in that space, but does not indicate a clear stance on whether this is a good or bad sign.",
+    "sentiment_reason": "The trader is discussing the mental framework for evaluating trade decisions rather than expressing a viewpoint about a specific asset or market trend. The focus is on maintaining objectivity and assessing risk/reward rather than making bullish or bearish predictions.",
+    "sentiment_explanation": "The trader emphasizes the importance of objectivity in trading decisions. They suggest a method for evaluating whether to continue holding a position based on current market conditions rather than previous biases or desires to prove a point. The tweet serves as a reminder to act on present risks and rewards.",
+    "tweet_username": "Game (@game_for_one) Posted on 46 minutes ago",
+    "current_tweet_content": "When you're in a trade, you often lose objectivity. \n\nA good simple test is: Would I enter this trade now if I were flat? If not, that’s your answer. \n\nThe edge isn’t in holding to prove you were right - it’s in acting based on present risk/reward. https://x.com/warren_muppets/status/1911413126714601733",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T21:51:29.906610",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Game",
+    "sentiment": "neutral",
+    "sentiment_reason": "The tweet is focused on trading psychology and decision-making rather than discussing specific assets or providing a sentiment about the market. The content advises against over-trading, emphasizing quality over quantity, without expressing a clear bullish or bearish stance on any particular asset.",
+    "sentiment_explanation": "The trader is discussing the importance of making fewer but more impactful trading decisions rather than being overwhelmed by too many potential trades. The message highlights that focusing on quality trades can lead to better overall returns, similar to strategic plays in poker.",
+    "tweet_username": "Game (@game_for_one) Posted on 1 hours ago",
+    "current_tweet_content": "RT @game_for_one: Too Many Decisions Kill Good Trading\n\nMany talk about edge, entries, psychology.\nBut not decision count.\n\nI think this be…",
+    "picture_included": false,
+    "picture_urls": [],
+    "parsed_time": "2025-04-13T21:37:29.906610",
+    "is_recent": true
+  },
+  {
+    "trader_name": "Game",
+    "sentiment": "neutral",
+    "asset_involved": "shitcoin, SOL",
+    "sentiment_reason": "The tweet expresses an observation about how regular individuals are coming up with more compelling arguments for investments ('theses') than seasoned crypto traders. This points to a lack of confidence in the traditional traders rather than outright positivity or negativity toward a specific asset.",
+    "sentiment_explanation": "The trader suggests that regular participants in the market ('normies') are creating better investment theses for altcoins ('shitcoins') than experienced traders on CryptoTwitter (CT). The mention of studying implies a call for analysis rather than a direct endorsement or criticism of any particular asset.",
     "tweet_username": "Game (@game_for_one) Posted on 3 hours ago",
-    "current_tweet_content": "They are starting to shill NFTs... we may be close...",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "2025-04-13T13:43:17.252468",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Game",
-    "sentiment": "neutral",
-    "sentiment_reason": "The tweet does not express a clear positive or negative opinion regarding any specific assets; instead, it comments on the indistinguishable nature of two concepts, suggesting a level of confusion or critique without direct investment implications.",
-    "sentiment_explanation": "The trader is making a metaphorical statement about complexities and confusions in decision-making processes, likening it to playing 5D chess. There is no mention of cryptocurrencies or financial assets in a way that indicates sentiment.",
-    "tweet_username": "Game (@game_for_one) Posted on 14 hours ago",
-    "current_tweet_content": "The signs of retardation and the signs of 5D chess are indistinguishable. https://x.com/geiger_capital/status/1911107009971155360",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "2025-04-13T02:43:17.252468",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Game",
-    "sentiment": "neutral",
-    "sentiment_reason": "The tweet lacks any specific sentiment or asset mention. The phrase 'Or sooner sure.' suggests a possibility but does not clearly indicate a positive or negative outlook.",
-    "sentiment_explanation": "The trader is responding in an ambiguous manner, not providing enough information to form a definitive opinion on market conditions.",
-    "tweet_username": "Game (@game_for_one) Posted on 18 hours ago",
-    "current_tweet_content": "Or sooner sure.",
+    "current_tweet_content": "Some of these normies are dropping better shitcoin theses than half of CT.\n\nStudy.",
     "picture_included": true,
     "picture_urls": [
-      "https://pbs.twimg.com/media/GoVv8FgWwAAzadq.png"
+      "https://pbs.twimg.com/media/GoaUuJ-XwAAJxuB.jpg"
     ],
-    "parsed_time": "2025-04-12T22:43:17.252468",
+    "parsed_time": "2025-04-13T19:37:29.906610",
     "is_recent": true
   },
   {
     "trader_name": "Game",
     "sentiment": "neutral",
-    "sentiment_reason": "The tweet is ambiguous and does not explicitly indicate a positive or negative sentiment towards a specific asset or the market. The use of 'we may even be able to rebuild him' suggests contemplation rather than conviction.",
-    "sentiment_explanation": "The trader is suggesting a possibility of improvement or recovery without clear direction about which asset or context they are referring to. The mention of '@based16z' may imply a discussion within a broader context, but the sentiment remains unclear.",
-    "tweet_username": "Game (@game_for_one) Posted on 18 hours ago",
-    "current_tweet_content": "At this point we may even be able to rebuild him...\n\ncc: @based16z",
+    "sentiment_reason": "The tweet does not express a clear opinion on any asset or market sentiment. It poses a question about a new entity related to a user without indicating bullish or bearish sentiments.",
+    "sentiment_explanation": "The trader is inquiring about a new concept or asset introduced by another user and its potential relation to a specific aspect ('the sphere').",
+    "tweet_username": "Game (@game_for_one) Posted on 3 hours ago",
+    "current_tweet_content": "So is this new animal from @blknoiz06 the one that goes on the sphere?",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T22:43:17.252468",
-    "is_recent": true
-  },
-  {
-    "trader_name": "Game",
-    "sentiment": "neutral",
-    "asset_involved": "AI coins, Virtuals",
-    "sentiment_reason": "The tweet does not express a strong positive or negative sentiment but indicates a strategy based on the actions of another trader or influencer, specifically Jonah. The mention of selling AI coins suggests a cautious approach rather than outright bullishness or bearishness.",
-    "sentiment_explanation": "The trader mentions a strategy of selling AI coins contingent upon another trader becoming 'mega' bullish on Virtuals. This reflects a wait-and-see approach rather than a definitive stance on market conditions.",
-    "tweet_username": "Game (@game_for_one) Posted on 19 hours ago",
-    "current_tweet_content": "We sell our AI coins once Jonah flips \"mega\" bullish on Virtuals.",
-    "picture_included": false,
-    "picture_urls": [],
-    "parsed_time": "2025-04-12T21:43:17.252468",
+    "parsed_time": "2025-04-13T19:37:29.906610",
     "is_recent": true
   },
   {
@@ -1612,14 +1614,14 @@
     "asset_involved": "TOTAL3",
     "sentiment_reason": "The tweet highlights a significant rebound of 15% in the TOTAL3 market, indicating optimism about the altcoin market's recovery. The trader mentions this rebound following a prior bearish sentiment and suggests it as a positive indicator for altcoins.",
     "sentiment_explanation": "The trader observes that the total market capitalization of altcoins, excluding Bitcoin and Ethereum, has experienced a notable rebound. This is presented as a sign that the market could be picking up momentum after a downturn.",
-    "tweet_username": "0xSun (@0xSunNFT) Posted on 21 hours ago",
+    "tweet_username": "0xSun (@0xSunNFT) Posted on 04-12",
     "current_tweet_content": "这条推文之后，TOTAL3触底反弹了15%。（TOTAL3是扣除BTC和ETH的加密货币总市值，可以理解为山寨币指标。） https://x.com/0xsunnft/status/1909151413822980357",
     "picture_included": true,
     "picture_urls": [
       "https://pbs.twimg.com/media/GoVJtXBXUAAMyV5.jpg",
       "https://pbs.twimg.com/media/GoVJtXJXQAAULGd.jpg"
     ],
-    "parsed_time": "2025-04-12T19:43:23.406122",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {
@@ -1683,11 +1685,11 @@
     "asset_involved": "gold",
     "sentiment_reason": "The tweet communicates a negative sentiment towards traditional financial assets due to rising uncertainties and highlights the appeal of commodities like gold as a refuge despite acknowledging that they provide no cash flow.",
     "sentiment_explanation": "The trader is expressing concern over the uncertainties in financial markets and suggesting that, in these times, gold is being favored as a stable asset despite its lack of yield. This reflects a bearish outlook on other investment categories while highlighting gold's perceived safety.",
-    "tweet_username": "Huma (@HumaCapital) Posted on 23 hours ago",
+    "tweet_username": "Huma (@HumaCapital) Posted on 04-12",
     "current_tweet_content": "In an uncertain world, assets providing certainty get a premium.\n\nStocks, bonds, currencies, real estate; all have uncertainties in a world with rising geopolitical tensions and economic uncertainty.\n\nThis is one of the reasons why commodities (especially gold) have gotten a bid lately. They do nothing, provide no cash flow, they just sit there; but at least you know they do nothing, and that they will keep doing nothing.",
     "picture_included": false,
     "picture_urls": [],
-    "parsed_time": "2025-04-12T17:43:29.532665",
+    "parsed_time": "unknown",
     "is_recent": true
   },
   {

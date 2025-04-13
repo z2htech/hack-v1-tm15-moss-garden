@@ -1,0 +1,186 @@
+2025-04-13 21:52:05,686 - main - INFO - 启动应用
+2025-04-13 21:52:05,686 - database - INFO - 数据库初始化成功
+2025-04-13 21:52:05,768 - telegram_bot - INFO - 启动Telegram机器人
+2025-04-13 21:52:07,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getMe "HTTP/1.1 200 OK"
+2025-04-13 21:52:07,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/deleteWebhook "HTTP/1.1 200 OK"
+2025-04-13 21:52:15,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:52:16,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:52:18,511 - scraper - INFO - 等待页面内容加载...
+2025-04-13 21:52:23,534 - scraper - INFO - 找到 27 个交易员
+2025-04-13 21:52:23,569 - scraper - INFO - 添加交易员: Andrew Kang (@Rewkang)
+2025-04-13 21:52:23,582 - scraper - INFO - 添加交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 21:52:23,594 - scraper - INFO - 添加交易员: art (@art_xbt)
+2025-04-13 21:52:23,606 - scraper - INFO - 添加交易员: TheHorse (@trading__horse)
+2025-04-13 21:52:23,618 - scraper - INFO - 添加交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 21:52:23,628 - scraper - INFO - 添加交易员: Nacho Trades (@NachoTrades)
+2025-04-13 21:52:23,638 - scraper - INFO - 添加交易员: Awawat (@Awawat_Trades)
+2025-04-13 21:52:23,647 - scraper - INFO - 添加交易员: PC ² (@PC_Larp)
+2025-04-13 21:52:23,657 - scraper - INFO - 添加交易员: Cred (@CryptoCred)
+2025-04-13 21:52:23,667 - scraper - INFO - 添加交易员: Reetika (@ReetikaTrades)
+2025-04-13 21:52:23,683 - scraper - INFO - 添加交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 21:52:23,692 - scraper - INFO - 添加交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 21:52:23,705 - scraper - INFO - 添加交易员: DeFi^2 (@DefiSquared)
+2025-04-13 21:52:23,716 - scraper - INFO - 添加交易员: Chiefingza (@chiefingza)
+2025-04-13 21:52:23,727 - scraper - INFO - 添加交易员: Pika (@pikachu_crypto)
+2025-04-13 21:52:23,738 - scraper - INFO - 添加交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 21:52:23,751 - scraper - INFO - 添加交易员: Nachi (@alphawifhat)
+2025-04-13 21:52:23,763 - scraper - INFO - 添加交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 21:52:23,775 - scraper - INFO - 添加交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 21:52:23,790 - scraper - INFO - 添加交易员: Definalist (@definalist)
+2025-04-13 21:52:23,804 - scraper - INFO - 添加交易员: salience (@saliencexbt)
+2025-04-13 21:52:23,876 - scraper - INFO - 添加交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 21:52:23,902 - scraper - INFO - 添加交易员: 带带带比特 (@daidaibtc)
+2025-04-13 21:52:23,917 - scraper - INFO - 添加交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 21:52:23,932 - scraper - INFO - 添加交易员: Game (@game_for_one)
+2025-04-13 21:52:23,942 - scraper - INFO - 添加交易员: 0xSun (@0xSunNFT)
+2025-04-13 21:52:23,953 - scraper - INFO - 添加交易员: Huma (@HumaCapital)
+2025-04-13 21:52:23,953 - scraper - INFO - 点击交易员: Andrew Kang (@Rewkang)
+2025-04-13 21:52:28,044 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:52:28,049 - scraper - INFO - 成功获取到 Andrew Kang 的 5 条最近24小时内的推文
+2025-04-13 21:52:30,079 - scraper - INFO - 点击交易员: RunnerXBT (@RunnerXBT)
+2025-04-13 21:52:34,171 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:52:34,174 - scraper - INFO - 成功获取到 RunnerXBT 的 5 条最近24小时内的推文
+2025-04-13 21:52:36,204 - scraper - INFO - 点击交易员: art (@art_xbt)
+2025-04-13 21:52:40,273 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:52:40,276 - scraper - INFO - 成功获取到 art 的 5 条最近24小时内的推文
+2025-04-13 21:52:42,304 - scraper - INFO - 点击交易员: TheHorse (@trading__horse)
+2025-04-13 21:52:46,404 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 21:52:46,407 - scraper - INFO - 成功获取到 TheHorse 的 5 条最近24小时内的推文
+2025-04-13 21:52:48,439 - scraper - INFO - 点击交易员: HORSE 🏴‍☠️ (@TheFlowHorse)
+2025-04-13 21:52:52,532 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:52:52,535 - scraper - INFO - 成功获取到 HORSE 🏴‍☠️ 的 5 条最近24小时内的推文
+2025-04-13 21:52:54,564 - scraper - INFO - 点击交易员: Nacho Trades (@NachoTrades)
+2025-04-13 21:52:58,667 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 21:52:58,670 - scraper - INFO - 成功获取到 Nacho Trades 的 5 条最近24小时内的推文
+2025-04-13 21:53:00,703 - scraper - INFO - 点击交易员: Awawat (@Awawat_Trades)
+2025-04-13 21:53:04,794 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:53:04,797 - scraper - INFO - 成功获取到 Awawat 的 5 条最近24小时内的推文
+2025-04-13 21:53:06,829 - scraper - INFO - 点击交易员: PC ² (@PC_Larp)
+2025-04-13 21:53:10,897 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:53:10,899 - scraper - INFO - 成功获取到 PC ² 的 5 条最近24小时内的推文
+2025-04-13 21:53:12,928 - scraper - INFO - 点击交易员: Cred (@CryptoCred)
+2025-04-13 21:53:17,009 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:53:17,012 - scraper - INFO - 成功获取到 Cred 的 5 条最近24小时内的推文
+2025-04-13 21:53:19,044 - scraper - INFO - 点击交易员: Reetika (@ReetikaTrades)
+2025-04-13 21:53:23,152 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:53:23,155 - scraper - INFO - 成功获取到 Reetika 的 5 条最近24小时内的推文
+2025-04-13 21:53:25,185 - scraper - INFO - 点击交易员: 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted (@Pentosh1)
+2025-04-13 21:53:29,276 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 21:53:29,280 - scraper - INFO - 成功获取到 🐧 Pentoshi 🇨🇳 🇺🇦 🇪🇺🏳️‍🌈5x 💉boosted 的 5 条最近24小时内的推文
+2025-04-13 21:53:31,311 - scraper - INFO - 点击交易员: DonAlt (@CryptoDonAlt)
+2025-04-13 21:53:35,382 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 21:53:35,384 - scraper - INFO - 成功获取到 DonAlt 的 5 条最近24小时内的推文
+2025-04-13 21:53:37,414 - scraper - INFO - 点击交易员: DeFi^2 (@DefiSquared)
+2025-04-13 21:53:41,496 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 21:53:41,499 - scraper - INFO - 成功获取到 DeFi^2 的 5 条最近24小时内的推文
+2025-04-13 21:53:43,528 - scraper - INFO - 点击交易员: Chiefingza (@chiefingza)
+2025-04-13 21:53:47,624 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:53:47,627 - scraper - INFO - 成功获取到 Chiefingza 的 5 条最近24小时内的推文
+2025-04-13 21:53:49,657 - scraper - INFO - 点击交易员: Pika (@pikachu_crypto)
+2025-04-13 21:53:53,746 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:53:53,749 - scraper - INFO - 成功获取到 Pika 的 5 条最近24小时内的推文
+2025-04-13 21:53:55,781 - scraper - INFO - 点击交易员: smartestmoney.hl (@smartestmoney_)
+2025-04-13 21:53:59,876 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 21:53:59,879 - scraper - INFO - 成功获取到 smartestmoney.hl 的 5 条最近24小时内的推文
+2025-04-13 21:54:01,905 - scraper - INFO - 点击交易员: Nachi (@alphawifhat)
+2025-04-13 21:54:05,987 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:54:05,989 - scraper - INFO - 成功获取到 Nachi 的 5 条最近24小时内的推文
+2025-04-13 21:54:08,019 - scraper - INFO - 点击交易员: Joshua | MOZAIK 🇰🇷 (@JoshuaDeuk)
+2025-04-13 21:54:12,116 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:54:12,119 - scraper - INFO - 成功获取到 Joshua | MOZAIK 🇰🇷 的 5 条最近24小时内的推文
+2025-04-13 21:54:14,148 - scraper - INFO - 点击交易员: 川沐｜Trumoo🐮 (@xiaomucrypto)
+2025-04-13 21:54:18,244 - scraper - INFO - 找到 84 个可能包含JSON数据的元素
+2025-04-13 21:54:18,247 - scraper - INFO - 成功获取到 川沐｜Trumoo🐮 的 5 条最近24小时内的推文
+2025-04-13 21:54:20,276 - scraper - INFO - 点击交易员: Definalist (@definalist)
+2025-04-13 21:54:24,379 - scraper - INFO - 找到 89 个可能包含JSON数据的元素
+2025-04-13 21:54:24,382 - scraper - INFO - 成功获取到 Definalist 的 5 条最近24小时内的推文
+2025-04-13 21:54:26,411 - scraper - INFO - 点击交易员: salience (@saliencexbt)
+2025-04-13 21:54:30,489 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:54:30,492 - scraper - INFO - 成功获取到 salience 的 5 条最近24小时内的推文
+2025-04-13 21:54:32,524 - scraper - INFO - 点击交易员: 憨巴龙王 (@dotyyds1234)
+2025-04-13 21:54:36,625 - scraper - INFO - 找到 80 个可能包含JSON数据的元素
+2025-04-13 21:54:36,628 - scraper - INFO - 成功获取到 憨巴龙王 的 5 条最近24小时内的推文
+2025-04-13 21:54:38,661 - scraper - INFO - 点击交易员: 带带带比特 (@daidaibtc)
+2025-04-13 21:54:42,762 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:54:42,765 - scraper - INFO - 成功获取到 带带带比特 的 5 条最近24小时内的推文
+2025-04-13 21:54:44,795 - scraper - INFO - 点击交易员: sigma^2 (@SigmaSquared_)
+2025-04-13 21:54:48,890 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:54:48,892 - scraper - INFO - 成功获取到 sigma^2 的 5 条最近24小时内的推文
+2025-04-13 21:54:50,923 - scraper - INFO - 点击交易员: Game (@game_for_one)
+2025-04-13 21:54:55,022 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:54:55,024 - scraper - INFO - 成功获取到 Game 的 5 条最近24小时内的推文
+2025-04-13 21:54:57,054 - scraper - INFO - 点击交易员: 0xSun (@0xSunNFT)
+2025-04-13 21:55:01,175 - scraper - INFO - 找到 86 个可能包含JSON数据的元素
+2025-04-13 21:55:01,178 - scraper - INFO - 成功获取到 0xSun 的 5 条最近24小时内的推文
+2025-04-13 21:55:03,204 - scraper - INFO - 点击交易员: Huma (@HumaCapital)
+2025-04-13 21:55:07,284 - scraper - INFO - 找到 82 个可能包含JSON数据的元素
+2025-04-13 21:55:07,286 - scraper - INFO - 成功获取到 Huma 的 5 条最近24小时内的推文
+2025-04-13 21:55:09,420 - scraper - INFO - 已爬取 135 条推文并保存到 extracted_tweets.json
+2025-04-13 21:55:09,420 - ai_processor - INFO - 处理来自 X-GPT 的数据
+2025-04-13 21:56:22,533 - database - INFO - 保存数据成功: X-GPT
+2025-04-13 21:56:22,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:56:23,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:24,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:24,243 - telegram_bot - ERROR - 发送消息块 1/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 10
+2025-04-13 21:56:24,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:24,871 - telegram_bot - ERROR - 发送消息块 2/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 2382
+2025-04-13 21:56:25,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:25,242 - telegram_bot - ERROR - 发送消息块 3/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 4095
+2025-04-13 21:56:25,842 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:26,457 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:27,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:27,143 - telegram_bot - ERROR - 发送消息块 6/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3680
+2025-04-13 21:56:28,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:28,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:29,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:30,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:31,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:31,108 - telegram_bot - ERROR - 发送消息块 11/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 1966
+2025-04-13 21:56:31,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:32,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:32,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:32,822 - telegram_bot - ERROR - 发送消息块 14/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3662
+2025-04-13 21:56:33,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:34,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:34,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:56:34,964 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:35,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:35,362 - telegram_bot - ERROR - 发送消息块 18/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3011
+2025-04-13 21:56:35,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:36,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:36,245 - telegram_bot - ERROR - 发送消息块 20/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3576
+2025-04-13 21:56:36,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:37,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:38,389 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:39,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:39,088 - telegram_bot - ERROR - 发送消息块 24/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3442
+2025-04-13 21:56:39,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:39,492 - telegram_bot - ERROR - 发送消息块 25/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 3598
+2025-04-13 21:56:40,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-13 21:56:40,036 - telegram_bot - ERROR - 发送消息块 26/29 时出错: Can't parse entities: can't find end of the entity starting at byte offset 4313
+2025-04-13 21:56:40,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:41,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:43,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/sendMessage "HTTP/1.1 200 OK"
+2025-04-13 21:56:44,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:56:55,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:05,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:15,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:26,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:36,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:47,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:57:57,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:58:07,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:58:18,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:58:29,232 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:58:39,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:58:50,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:00,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:10,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:21,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:32,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:43,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 21:59:53,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 22:00:04,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 22:00:14,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 22:00:25,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"
+2025-04-13 22:00:29,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8155323856:AAH8JAorNJyZtWbJhJtROY-qfUiiT2uwaXg/getUpdates "HTTP/1.1 200 OK"

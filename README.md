@@ -81,7 +81,7 @@ Moss_bot是一个专为加密货币交易爱好者开发的机器人，旨在实
 
 ## 贡献者
 
-- [Lambert Lin](https://github.com/lambertlapha)
+- [Lambert Lin](https://github.com/lambertlalpha)
 - [Shiyu Chen](https://github.com/csy143)
 
 ## 许可证

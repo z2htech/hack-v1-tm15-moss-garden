@@ -11,6 +11,7 @@ class AIProcessor:
         # openai.api_key = config.OPENAI_API_KEY  # 注释掉OpenAI配置
         self.api_key = config["DEEPSEEK_API_KEY"]  # 修改为字典访问方式
         self.api_url = config["DEEPSEEK_API_URL"]  # 修改为字典访问方式
+        self.model = config["AI_MODEL"]  # 修改为字典访问方式
         self.logger = logging.getLogger("ai_processor")
     
     async def process_data(self, scraped_data):
@@ -28,7 +29,7 @@ class AIProcessor:
             }
             
             payload = {
-                "model": self.config["AI_MODEL"],  # 修改为字典访问方式
+                "model": self.model,
                 "messages": [
                     {"role": "system", "content": "你是一个信息整合助手，请提取并总结以下信息的关键点:"},
                     {"role": "user", "content": prompt}
@@ -55,6 +56,44 @@ class AIProcessor:
             }
         except Exception as e:
             self.logger.error(f"AI处理失败: {str(e)}")
+            return None
+    
+    async def answer_question(self, user_query, tweets_data):
+        """根据用户的问题和推文数据生成回答"""
+        try:
+            # 构建提示词
+            prompt = self._prepare_question_prompt(user_query, tweets_data)
+            
+            # 构造DeepSeek API请求
+            headers = {
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json"
+            }
+            
+            payload = {
+                "model": self.model,
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": 0.7,
+                "max_tokens": 1000
+            }
+            
+            # 发送请求到DeepSeek API
+            response = requests.post(
+                self.api_url,
+                headers=headers,
+                data=json.dumps(payload)
+            )
+            response.raise_for_status()
+            response_data = response.json()
+            
+            # 提取AI回答
+            answer = response_data["choices"][0]["message"]["content"]
+            
+            return answer
+        except Exception as e:
+            self.logger.error(f"AI回答问题失败: {str(e)}")
             return None
     
     def _prepare_prompt(self, scraped_data):
@@ -115,6 +154,80 @@ class AIProcessor:
 
 原始推文数据：
 {tweets_content}
+
+示例输出：
+"**关键点总结：**
+
+1. **整体市场情绪：**
+   - 看多情绪 (Positive): 107 条
+   - 中性情绪 (Neutral): 94 条
+   - 看空情绪 (Negative): 57 条
+   - 结论: *LONG*（看多情绪占优，107 > 57）
+
+2. **分析理由：**
+   - 看多情绪主要围绕比特币（$BTC）的潜在反转、特朗普政策（如关税豁免和“Trump Put”）对市场的积极影响，以及部分山寨币（如ETH、$HYPE）的短期机会
+   - 中性情绪多为无关市场的个人动态或宏观政策讨论（如CPI、关税）
+   - 看空情绪集中在市场操纵风险（如小市值代币）、安全漏洞（如Zoom通话导致的资产损失）以及对部分项目（如Fartcoin）的批评
+
+3. **重要提示：**
+   - 比特币（$BTC）：多位交易员认为贸易战和特朗普政策可能结束其下跌趋势
+   - 山寨币机会：ETH、$HYPE等被提及有短期反弹或套利空间
+   - 市场风险：需警惕小市值代币的庄家操纵和杠杆风险
+
+4. **风险提示：**
+   - 政治不确定性（如中美关税）可能引发波动
+   - 小市值代币（如F3B）存在流动性陷阱和操纵风险
+   - 安全风险（如钓鱼攻击通过Zoom会议）
+
+5. **数据来源：**
+   - 27位顶级交易员的Twitter推文（过去24小时）
+"""
+        
+        return prompt
+    
+    def _prepare_question_prompt(self, user_query, tweets_data):
+        """为用户问题准备提示词"""
+        # 格式化推文数据为文本
+        tweets_text = ""
+        unique_traders = set()
+        
+        for i, tweet in enumerate(tweets_data, 1):
+            trader_name = tweet.get("trader_name", "未知交易员")
+            unique_traders.add(trader_name)
+            
+            sentiment = tweet.get("sentiment", "未知")
+            reason = tweet.get("sentiment_reason", "无")
+            explanation = tweet.get("sentiment_explanation", "无")
+            content = tweet.get("current_tweet_content", "无内容")
+            
+            tweets_text += f"--- 推文 #{i} ---\n"
+            tweets_text += f"交易员: {trader_name}\n"
+            tweets_text += f"情绪: {sentiment}\n"
+            if "asset_involved" in tweet:
+                tweets_text += f"相关资产: {tweet['asset_involved']}\n"
+            tweets_text += f"推文内容: {content}\n"
+            tweets_text += f"分析理由: {reason}\n"
+            tweets_text += f"详细解释: {explanation}\n\n"
+        
+        # 创建AI提示
+        prompt = f"""
+你是一位专业的加密货币市场分析师，名为Moss_bot，负责分析顶级交易员的推文并回答用户问题。
+
+以下是来自{len(unique_traders)}位顶级交易员最近24小时内发布的推文数据，包含他们的观点、情绪分析和解释。
+
+用户问题: {user_query}
+
+请根据以下推文数据回答用户的问题。如果问题与特定交易员有关，请重点分析该交易员的观点。如果问题是关于整体市场情绪或特定资产，请综合所有相关交易员的观点进行回答。
+
+你的回答应该：
+1. 直接回应用户的问题
+2. 引用交易员的具体观点和分析作为支持
+3. 提供有见解的市场分析
+4. 总结关键点和可能的风险
+5. 保持客观专业
+
+推文数据:
+{tweets_text}
 """
         
         return prompt

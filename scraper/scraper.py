@@ -155,9 +155,14 @@ class WebScraper:
             # 等待推文加载
             time.sleep(3)
             
+            # 确保trader_twitter文件夹存在
+            import os
+            if not os.path.exists("trader_twitter"):
+                os.makedirs("trader_twitter")
+            
             # 保存页面以便调试
             page_source = self.driver.page_source
-            with open(f"trader_{trader['name'].replace(' ', '_')}_page.html", "w", encoding="utf-8") as f:
+            with open(f"trader_twitter/trader_{trader['name'].replace(' ', '_')}_page.html", "w", encoding="utf-8") as f:
                 f.write(page_source)
             
             # 获取所有推文数据
